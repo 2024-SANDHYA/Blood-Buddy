@@ -1,4 +1,4 @@
-# Bloody-Buddy 🏥
+# Blood-Buddy 🏥
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
 ![image](https://user-images.githubusercontent.com/75671152/132247486-0eb918aa-7f5e-4042-8380-82ce77d4d289.png)
@@ -18,24 +18,18 @@
   <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 
 
-<h2 align=center>  How to get started? </h2> 
- 
-  ## Contribution Guidelines 🏗
+<h2 align=center>  How to get started? 🏗 </h2> 
 
-Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and improve it further
+<h3> To start contributing you need to follow the below steps in proper order </h3>
 
-To start contributing, follow the below guidelines: 
+**0.**  Create your own issue or choose one already mentioned in under issues section.
 
-**🌟.**  Star🌟 the repository to appreciate the work.
+**1.**  Fork [this](https://github.com/2024-SANDHYA/Bloody-Buddy.git) repo.
 
-**0.**  Take a look at the existing [issues](https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/issues) or create your own issues. Wait for the Issue to be assigned to you after which you can start working on it.
-
-**1.**  Fork [this](https://github.com/QAZIMAAZARSHAD/Apni-Dukaan) repository.
-
-**2.**  Clone your forked copy of the project.
+**2.**  Clone your fork copy of the project which'll be visible in your account.
 
 ```
-git clone --depth 1 https://github.com/<your_user_name>/Apni-Dukaan.git
+git clone --depth 1 https://github.com/<your_user_name>/Blood-Buddy.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
