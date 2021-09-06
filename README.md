@@ -113,15 +113,3 @@ If you do not find any issue, try to create one by identifying problems in the p
 - Fork the repo. Clone it. Make changes in the code and push to your fork. Then create a pull request. 
 
 - If you have problem with the above workflow, take help from mentors or search about the same on youtube and you will be able to do it.
-
-
-
-<h2 align=center>License 📄</h2>
-
- See the [LICENSE](./LICENSE) file for details
-
-
-
-
-
-
