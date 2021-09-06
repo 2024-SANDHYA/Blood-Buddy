@@ -35,22 +35,22 @@ git clone --depth 1 https://github.com/<your_user_name>/Blood-Buddy.git
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd Apni-Dukaan
+cd Blood-Buddy
 ```
 
-**4.** Add a reference(remote) to the original repository.
+**4.** Add a remote upstream to the original repository.
 
 ```
 git remote add upstream https://github.com/QAZIMAAZARSHAD/Apni-Dukaan.git 
 ```
 
-**5.** Check the remotes for this repository.
+**5.** Check the remotes for the repository.
 
 ```
 git remote -v
 ```
 
-**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+**6.** It is always advused to take a pull from the upstream repository to your master branch to keep it even with the main project(updated repository).
 
 ```
 git pull upstream master
@@ -75,7 +75,7 @@ git add .
 **10.** Commit your changes .
 
 ```
-git commit -m "Relevant message"
+git commit -m "Message related to changes you made in the code"
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repo.
@@ -84,9 +84,9 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure that both the branches are even in order to avoid merge conficts
 
-**13.** Add an appropriate title and description to your pull request explaining your changes and efforts done.
+**13.** Add a title and description to your PR explaining the features you added.
 
 **14.** Click on `Create Pull Request`.
 
