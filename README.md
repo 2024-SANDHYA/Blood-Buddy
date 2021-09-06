@@ -3,6 +3,14 @@
 
 ![image](https://user-images.githubusercontent.com/75671152/132247486-0eb918aa-7f5e-4042-8380-82ce77d4d289.png)
 
+**Blood Buddy** is a website that offers blood donation services to anyone in need. The website works :
+
+1. Registering thorugh the website.
+2. Adding your address.
+3. Website can track nearby blood bank.
+
+
+
 
 
 
