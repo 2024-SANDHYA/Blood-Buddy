@@ -91,7 +91,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15.** Voila :exclamation: You have made a PR to the Apni-Dukaan project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand, at times the time taken to review a PR can vary from a few hours to a few days.
+**15.** Congrats :exclamation: You made your first PR.
 <h2 align=center>👨🏻‍💻 Contribution Guidelines</h2>
 
 - Find an issue that you think you can solve.
