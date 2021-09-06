@@ -1,7 +1,5 @@
 # Bloody-Buddy
-Blood donation made easy
-
-<p align="center"><img src="https://raw.githubusercontent.com/2024-SANDHYA/Bloody-Buddy/main/Images/favicon.png" /></p>
+![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
 
