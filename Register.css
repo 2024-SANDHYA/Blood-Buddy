@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+
+body{
+    background: url('./Images/ug.png');
+}
+
+header{
+    background-color: white;
+    color: white;
+    height: 18%;
+    width: 100%;
+	z-index: 10;
+	position: fixed;
+    font-weight: 100;
+}
+
+.header-logo{
+    font-size: 10px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 0px;
+
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: all ease 0.5s;
+}
+
+li{
+    float: right;
+    padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+header ul li a:hover{
+    background-color:rgba(220,20,60);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.inner{
+    height: 85%;
+    width: 70%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.photo{
+    width: 50%;
+    height: 100%;
+}
+
+.photo img{
+    width: 110%;
+    height: 100%;
+}
+
+.user-form{
+    background: #F08080;
+    padding: 40px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.user-form h1{
+    color: #fff;
+    padding: 30px 0;
+    margin: 25px 10px;
+    font-weight: 700;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 2px;
+}
+
+.user-form i{
+    position: absolute;
+    margin: 25px 10px;
+    color:#F08080 ;
+}
+
+input{
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+.safety{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.line{
+    height: 6px;
+    border-radius: 20px;
+    width: 20%;
+    background: #fff;
+    margin: 5px;
+}
+
+span:nth-child(2)
+{
+    background-color: #fffc00;
+}
+
+
+span:nth-child(3)
+{
+    background-color: #fffc00;
+}
+
+.action-btn{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px;
+    background: transparent;
+    border-radius: 20px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.primary{
+    border: none;
+    background: linear-gradient(45deg,rgba(222,197,51,1)24%,rgba(255,107,0,1)100%);
+}
+
+@media(max-width:700px){
+    .photo{
+        display: none;
+    }
+    .user-form{
+        width: 100%;
+        border-radius: 10px;
+        font-size: 20px
+    }
+    .action-btn{
+        margin: 5px;
+        display: block;
+        width: 100%;
+    }
+
+    .btn{
+        width:100%;
+        margin:5px;
+        padding:5px;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:665px){
+    .action-btn{
+        margin: 5px;
+        display: block;
+        width: 100%;
+    }
+
+    .btn{
+        width:100%;
+        margin:5px;
+        padding:5px;
+    }
+}
