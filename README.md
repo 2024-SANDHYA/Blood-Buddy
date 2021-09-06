@@ -5,9 +5,10 @@
 
 **Blood Buddy** is a website that offers blood donation services to anyone in need. The website works :
 
-1. Registering thorugh the website.
-2. Adding your address.
+1. Register on the website.
+2. Add your address.
 3. Website can track nearby blood bank.
+4. Get updates.
 
 <hr>
 
