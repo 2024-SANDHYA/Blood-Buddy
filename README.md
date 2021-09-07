@@ -23,12 +23,13 @@
   <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> -->
 <!--   </p> -->
 
+<h4> Star ⭐️the repo to get frequent updates & appreciate the efforts. </h4>
+  ![image](https://user-images.githubusercontent.com/75671152/132321300-2213949e-2cd3-4223-8603-6767db065598.png)
+
+  
 
 <h2 align=center>  How to get started? 🏗 </h2> 
 
-<h3> Star ⭐️the repo to get frequent updates & appreciate the efforts ![image](https://user-images.githubusercontent.com/75671152/132321300-2213949e-2cd3-4223-8603-6767db065598.png)
-</h3>
-  
 <h4> To start contributing you need to follow the below steps in proper order </h3>
 
 **0.**  Create your own issue or choose one already mentioned in under issues section.
