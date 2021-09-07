@@ -23,12 +23,11 @@
   <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> -->
 <!--   </p> -->
 
-<h4> Star ⭐️the repo to get frequent updates & appreciate the efforts. </h4>
-  ![image](https://user-images.githubusercontent.com/75671152/132321870-a1f14163-fece-46cb-b109-12f598a773c5.png)
+<h4> Star ⭐️the repo to get frequent updates & appreciate the efforts.</h4>
+![image](https://user-images.githubusercontent.com/75671152/132321870-a1f14163-fece-46cb-b109-12f598a773c5.png)
 
 
   
-
 <h2 align=center>  How to get started? 🏗 </h2> 
 
 <h4> To start contributing you need to follow the below steps in proper order </h3>
