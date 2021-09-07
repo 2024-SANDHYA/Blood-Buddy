@@ -93,5 +93,6 @@ git push -u origin <your_branch_name>
 
 **15.** Congrats !! You made your first PR 🥳.
 
-This project and everyone participating in it is governed by the [GirlScript Code of Conduct](https://github.com/2024-SANDHYA/Blood-Buddy/blob/ff0d5e26c7e6db3ffd7851bccae2acc30a840106/Code%20Of%20Conduct.md). By participating, you are expected to uphold this code.👨🏻‍💻
+<hr>
+This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/2024-SANDHYA/Blood-Buddy/blob/ff0d5e26c7e6db3ffd7851bccae2acc30a840106/Code%20Of%20Conduct.md). By participating, you are expected to uphold this code.👨🏻‍💻
 
