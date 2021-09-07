@@ -42,7 +42,7 @@ cd Blood-Buddy
 **4.** Add a remote upstream to the original repository.
 
 ```
-git remote add upstream https://github.com/QAZIMAAZARSHAD/Apni-Dukaan.git 
+git remote add upstream https://github.com/2024-SANDHYA/Blood-Buddy.git
 ```
 
 **5.** Check the remotes for the repository.
@@ -54,7 +54,7 @@ git remote -v
 **6.** It is always advused to take a pull from the upstream repository to your master branch to keep it even with the main project(updated repository).
 
 ```
-git pull upstream master
+git pull upstream master(or main)
 ```
 
 **7.** Create a new branch.
