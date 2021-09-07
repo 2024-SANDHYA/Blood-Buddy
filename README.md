@@ -101,6 +101,8 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15.** Congrats !! You made your first PR 🥳.
+
+<p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
 <hr>
 
  ✨This project and everyone participating in it is governed by **[Code Of Conduct](https://github.com/2024-SANDHYA/Blood-Buddy/blob/ff0d5e26c7e6db3ffd7851bccae2acc30a840106/Code%20Of%20Conduct.md)** .By participating, you are expected to uphold this code.✨
