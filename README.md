@@ -91,12 +91,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15.** Congrats :exclamation: You made your first PR.
-<h2 align=center>👨🏻‍💻 Contribution Guidelines</h2>
+**15.** Congrats !! You made your first PR 🥳.
 
-- Find an issue that you think you can solve.
-If you do not find any issue, try to create one by identifying problems in the project, or wanting to improve something, anything you wish.
-- Always ask for the issue to be assigned and only then start working on it.
-- Fork the repo. Clone it. Make changes in the code and push to your fork. Then create a pull request. 
+This project and everyone participating in it is governed by the [GirlScript Code of Conduct](https://github.com/2024-SANDHYA/Blood-Buddy/blob/ff0d5e26c7e6db3ffd7851bccae2acc30a840106/Code%20Of%20Conduct.md). By participating, you are expected to uphold this code.👨🏻‍💻
 
-- If you have problem with the above workflow, take help from mentors or search about the same on youtube and you will be able to do it.
