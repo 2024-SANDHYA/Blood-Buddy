@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+*{
+    margin:0p;
+    padding:0px;
+}
+
+
 header{
 height: 100vh;
 width: 100%;
