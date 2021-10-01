@@ -185,9 +185,9 @@ p{
     display: inline-block;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px;
-    margin: 2%;
     position: relative;
     background: white;
+    margin: 2%;
 
 }
 .about-col:hover{
