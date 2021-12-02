@@ -1,7 +1,9 @@
-## Thankyou for your contribution, Please mention the kind of change does this PR introduce ?
+## Thankyou for your contribution 🤩🤩 
+
+#### Kind of change this PR introduce :
+#### Issue it resolves : 
+<!-- Mention the issue number using # -->
 <!-- E.g. Is it a new feature, bugfix, code improvement etc. ? Add some description. -->
-<p>Issue it resolves : </p>
 
-## Screenshots & GitHub Page Link 
-
-Please add appropriate screenshots & GitHub page link to track the changes.
+#### Screenshots & GitHub Page Link : 
+<!-- Please add appropriate screenshots & GitHub page link to track the changes. -->
