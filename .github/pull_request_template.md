@@ -7,6 +7,5 @@
 2. Issue it resolves : 
 <!-- Mention the issue number using # -->
 <!-- E.g. Is it a new feature, bugfix, code improvement etc. ? Add some description. -->
-
 3. Screenshots & GitHub Page Link : 
 <!-- Please add appropriate screenshots & GitHub page link to track the changes. -->
