@@ -8,7 +8,9 @@
     <link rel="stylesheet" href='index.css'>
     <link rel="stylesheet" href='https://fontawesome.com/v4.7.0/icon/bars'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    
+
+    <!--Link of aos animation library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <title>BLOOD BUDDY</title>
 <body>
@@ -43,7 +45,7 @@
         <p class="head-des" class="text">We solve the problem of blood emergencies by connecting <span class="one-line"><br></span>
             blood donors directly with people in blood need. </p>
             <div class="row">
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/drop.png">
                     </div>
@@ -54,7 +56,7 @@
                         banks, for an efficient and
                         seamless process.</p>
                 </div>
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/innovation.png">
                     </div>
@@ -64,7 +66,7 @@
                         heath.We provide <span>immediate
                         access</span> to blood donors.</p>
                 </div>
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/netwotk.png">
                     </div>
@@ -74,7 +76,7 @@
                     together as a network that
                     responds to emergencies in an efficient manner.</p>
                 </div>
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/noti.png">
                     </div>
@@ -85,7 +87,7 @@
                         through an automated SMS
                         service and a mobile app.</p>
                 </div>
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/cost.png">
                 </div>
@@ -96,7 +98,7 @@
                         reliable way to get life-saving
                         blood, totally <span>Free of cost.</span></p>
                 </div>
-                <div class="about-col">
+                <div class="about-col"  data-aos="fade-up">
                     <div class="image">
                     <img src="./Images/save.png">
                     </div>
@@ -123,28 +125,28 @@
         our volunteers are available 24/7 to help and donate blood. Blood banks store blood<span class="line"><br></span>
         bags but our volunteers are there with you in an emergency for a blood transfusion real time.</p>
 <ul class="volunt">
-    <li class="vol">
+    <li class="vol" data-aos="fade-right">
         <span class=" vol-i number">1 </span>
         <span class=" vol-i name">Ritik</span>
         <span class=" vol-i location">Joga,<br>Uttar Pradesh</span>
         <span class=" vol-i blood group">O+<i class="fa fa-tint" aria-hidden="true"></i>
         </span>
     </li>
-    <li class="vol">
+    <li class="vol" data-aos="fade-left">
         <span class=" vol-i number">2</span>
         <span class=" vol-i name">Mehere kaur</span>
         <span class=" vol-i location">Ghaziabad,<br>Uttar Pradesh</span>
         <span class=" vol-i blood group">B+<i class="fa fa-tint" aria-hidden="true"></i>
         </span>
     </li>
-    <li class="vol">
+    <li class="vol" data-aos="fade-right">
         <span class=" vol-i number">3</span>
         <span class=" vol-i name">Kenny</span>
         <span class=" vol-i location">Kerela,<br>India</span>
         <span class=" vol-i blood group">AB+<i class="fa fa-tint" aria-hidden="true"></i>
         </span>
     </li>
-    <li class="vol">
+    <li class="vol" data-aos="fade-left">
         <span class=" vol-i number">4</span>
         <span class=" vol-i name">Sarah</span>
         <span class=" vol-i location">Tamil Nadu,<br>India</span>
@@ -152,7 +154,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-right">
         <span class=" vol-i number">5</span>
         <span class=" vol-i name">Kenneth</span>
         <span class=" vol-i location">Ayodhya,<br>Uttar Pradesh</span>
@@ -160,7 +162,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-left">
         <span class=" vol-i number">6</span>
         <span class=" vol-i name">Ritika</span>
         <span class=" vol-i location">Ramnagar,<br>Uttarakhand</span>
@@ -168,7 +170,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-right">
         <span class=" vol-i number">7</span>
         <span class=" vol-i name">Krish Maurya</span>
         <span class=" vol-i location">Surat,<br>Gujarat</span>
@@ -176,7 +178,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-left">
         <span class=" vol-i number">8</span>
         <span class=" vol-i name">Tushkar</span>
         <span class=" vol-i location">Bengaluru,<br>Karnataka</span>
@@ -184,7 +186,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-right">
         <span class=" vol-i number">9</span>
         <span class=" vol-i name">Nitin</span>
         <span class=" vol-i location">Lucknow</span>
@@ -192,7 +194,7 @@
         </span>
     </li>
 
-    <li class="vol">
+    <li class="vol" data-aos="fade-left">
         <span class=" vol-i number">10</span>
         <span class=" vol-i name">Riya</span>
         <span class=" vol-i location">Delhi,<br>India</span>
@@ -237,5 +239,9 @@
         headerl.style.right="-210px";
     }
 </script>
+
+<!--Scripts of aos animation library-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
 </body>
 </html>
