@@ -190,6 +190,9 @@ p{
     margin: 2%;
 
 }
+#Network{
+    height: 130px;
+}
 .about-col:hover{
     transform:scale(1.03,1.03);
 }
