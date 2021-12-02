@@ -8,6 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     background-color: white;
     color: white;
@@ -27,7 +32,7 @@ header{
 
 }
 
-li a{
+.header-list ul li a{
     text-decoration: none;
     display: block;
     padding-bottom: 12%;
@@ -43,7 +48,7 @@ li a{
     transition: all ease 0.5s;
 }
 
-li{
+.header-list ul li{
     float: right;
     padding-left: 30px;
     padding-top: 30px;
@@ -174,7 +179,6 @@ textarea{
 main{
     background: url(../Images/ug.png);
 }
-
 
 
 
