@@ -16,18 +16,7 @@ header{
     float: left;
     width: 80px;
 }
-nav{
-    float: right;
-    display: inline-block;
-}
 
-.header-text{
-    font-size:.5in;
-    display: inline-block;
-    color: #DC143C;
-    font-family: 'Lobster', cursive;
-    padding-left: 5px;
-}
 .header-list{
     float: right;
     margin-top: 10px;
