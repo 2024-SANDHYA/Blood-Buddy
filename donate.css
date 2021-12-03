@@ -153,3 +153,100 @@ main{
     color: #fff;
     width: 88%;
 }
+
+/*Footer*/
+.sec{
+    background: black;
+    margin-top: 2%;
+    color:white;
+    height: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4vh;
+}
+.bout{
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 1vh;
+}
+.head{
+    padding-left: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.sci li{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 30px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+.sci li a{
+    color: white;
+}
+.sci li a:hover{
+    transform: translateY(-20px);
+    box-shadow: inset-1px -1px 2px rgba(0,0,0,0.2), 2px 24px 10px rgba(0,0,0,0.1);
+}
+
+.sci  li:nth-child(1) a:hover{
+
+    color: #3b5998;
+    transform: translateY(-20px);
+
+}
+
+.sci li:nth-child(2) a:hover{
+
+    color: rgba(188, 42, 141);
+    transform: translateY(-20px);
+
+}
+
+.sci li:nth-child(3) a:hover{
+
+    color:#F0E68C;
+    transform: translateY(-20px);
+}
+@media screen and (max-width: 500px){
+     .head{
+         padding-left: 15px;
+         font-size: 30px;
+         font-weight: 550;
+     }
+     .sci li{
+         padding-right: 15px;
+         font-size: 25px;
+     }
+}
+@media screen and (max-width: 360px){
+    .head{
+        padding-left: 7px;
+        font-size: 25px;
+    }
+    .sci li{
+        padding-right: 7px;
+        font-size: 20px;
+    }
+    .bout p{
+        font-size: 18px;
+    }
+    .bout{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
