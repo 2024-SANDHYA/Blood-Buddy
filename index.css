@@ -433,7 +433,7 @@ main {
 .title-head {
     font-family: 'Alegreya Sans SC', sans-serif;
     background: white;
-    padding-top: 8%;
+    padding-top: 1rem;
     text-align: center;
     font-size: 30px;
 }
@@ -441,8 +441,8 @@ main {
 .content {
     background: white;
     /* height: 100px; */
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     text-align: center;
 }
 
