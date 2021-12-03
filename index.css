@@ -5,42 +5,43 @@
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 
 
-header {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(14, 23, 61, 0.7), rgb(59, 75, 85)), url(./Images/header.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-attachment: fixed;
+header{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(14, 23, 61, 0.7),rgb(59, 75, 85)),url(./Images/header.jpg);
+background-position: center;
+background-size: cover;
+position:relative;
+background-attachment: fixed;
 }
 
 
 
-nav {
+nav{
     display: flex;
-    padding: 2%, 6%;
+    padding:2%,6%;
     justify-content: space-between;
 }
 
-nav img {
+nav img{
     width: 200px;
     padding-left: 20px;
     padding-top: 10px;
 }
 
-.nav .header-list {
+.nav .header-list{
     flex: 1;
     text-align: right;
 }
 
-.header-list ul li {
+.header-list ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 15px;
@@ -48,53 +49,52 @@ nav img {
 
 }
 
-.header-list ul li a {
+.header-list ul li a{
     color: white;
     font-size: 24px;
     text-decoration: none;
     font-family: 'Fredoka One', cursive;
 }
 
-.header-list ul li::after {
+.header-list ul li::after{
     content: '';
     height: 2px;
-    background: #CD5C5C;
+    background:#CD5C5C;
     display: block;
     margin: auto;
     transition: 0.5s;
     width: 0%;
 }
 
-.header-list ul li:hover::after {
+.header-list ul li:hover::after{
     width: 100%;
 }
-
-.text-box {
+.text-box{
     width: 90%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     text-align: center;
     font-family: 'Neuton', serif;
     line-height: 50px;
 
 }
 
-.text-box h1 {
+.text-box h1{
     font-size: 70px;
     font-family: 'Neuton', serif;
     letter-spacing: 8px;
 }
 
-.text-box p {
-    margin: 10px 0 40px;
+.text-box p{
+    margin: 10px 0 40px ;
     font-size: 26px;
     color: #fff;
 }
 
-.hero-btn {
+.hero-btn{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -110,35 +110,32 @@ nav img {
     font-family: 'Patrick Hand SC', cursive;
 }
 
-.hero-btn:hover {
+.hero-btn:hover{
     border: 1px solid #CD5C5C;
     background: #CD5C5C;
     transition: 1s;
 }
 
-nav .fa {
+nav .fa{
     display: none;
 }
 
-@media(max-width:700px) {
-    .text-box h1 {
+@media(max-width:700px){
+    .text-box h1{
         font-size: 30px;
         padding-top: 32px;
     }
-
-    nav img {
+    nav img{
         width: 140px;
         padding-left: 20px;
         padding-top: 0px;
         padding-bottom: 200px;
         margin-bottom: 14px;
     }
-
-    .header-list ul li {
+    .header-list ul li{
         display: block;
     }
-
-    .header-list {
+    .header-list{
         position: absolute;
         background: #FA8072;
         height: 100vh;
@@ -149,8 +146,7 @@ nav .fa {
         z-index: 2;
         transition: 1s;
     }
-
-    nav .fa {
+    nav .fa{
         display: block;
         color: #fff;
         margin: 10px;
@@ -158,8 +154,7 @@ nav .fa {
         cursor: pointer;
         padding-bottom: 20px;
     }
-
-    .header-list ul {
+    .header-list ul{
         padding: 30px;
     }
 
@@ -167,28 +162,26 @@ nav .fa {
 
 /*ABOUT*/
 
-.about {
-    width: 80%;
-    margin: auto;
+.about{
+    width:80%;
+    margin:auto;
     text-align: center;
     padding-top: 8%;
 }
-
-h1 {
+h1{
     font-size: 30px;
     font-weight: 600;
 }
-
-p {
-    color: #777;
+p{
+    color:#777;
     font-size: 20px;
     font-weight: 300;
     padding: 10px;
     line-height: 20px;
 }
 
-.about-col {
-    transition: transform 1s;
+.about-col{
+    transition:transform 1s;
     width: 25%;
     display: inline-block;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -198,239 +191,147 @@ p {
     margin: 2%;
 
 }
-
-.about-col:hover {
-    transform: scale(1.03, 1.03);
+.about-col:hover{
+    transform:scale(1.03,1.03);
 }
 
-.image img {
+.image img{
     width: 50%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-
+  
 }
 
-.about h3 {
+.about h3{
     font-family: 'Alegreya Sans SC', sans-serif;
-
+    
 }
 
-.about-col p {
-    padding: 3px;
-    text-align: center;
-    padding-top: 10px;
-    border-radius: 2.8rem;
-    margin: 10px;
-    z-index: -1;
-    font-family: 'NTR', sans-serif;
-    font-size: 1.2rem;
+.about-col p{
+padding: 3px;
+text-align: center;
+padding-top: 10px;
+border-radius:2.8rem;
+margin: 10px;
+z-index: -1;
+font-family: 'NTR', sans-serif;
+font-size: 1.2rem;
 
 }
 
 .heading {
-    font-size: 36px;
-    font-weight: 600;
-    font-family: 'Alegreya Sans SC', sans-serif;
+font-size:36px;
+font-weight: 600;
+font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-main {
+main{
     background: url(../Images/ug.png);
     z-index: -10;
 }
-
-@media screen and (max-width: 540px) {
-    .about {
+@media screen and (max-width: 540px){
+    .about{
         width: 95%;
         margin: auto;
     }
-
-    .about p {
+    .about p{
         padding: 0px;
         margin: 2px;
         font-size: 16px;
     }
-
-    .about-col {
+    .about-col{
         width: 27%;
     }
 }
-
-@media screen and (max-width: 360px) {
-    .about {
+@media screen and (max-width: 360px){
+    .about{
         width: 95%;
         margin: auto;
     }
-
-    .about p {
+    .about p{
         padding: 0px;
         margin: 1.4px;
         font-size: 15px;
         letter-spacing: -0.01rem;
     }
-
-    .about-col {
+    .about-col{
         width: 28%;
         border-radius: 4px;
         margin: 1.3%;
     }
-
-    .about h3 {
+    .about h3{
         font-size: 17px;
     }
-
-    .about h1 {
+    .about h1{
         font-size: 27px;
     }
 }
-
-@media screen and (max-width: 400px) {
-    .one-line {
+@media screen and (max-width: 400px){
+    .one-line{
         display: none;
     }
 }
-
 /* ABOUT ENDS */
 
 /*Volunteer*/
-.volunteer {
+.volunteer{
     background: #F08080;
     font-family: sans-serif;
-    padding-bottom: 20px;
+    padding: 0px 0px;
 }
-
-.volunt {
-    /* position: relative; */
-    width: 450px;
-    margin: 50px auto 0px;
-    padding: 10px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, .1);
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, .2);
-    overflow: hidden;
-    border-radius: 5px;
-}
-
-.vol span .vol-i {
+.volunteer .volunteer-items{
+    width: 100%;
+    padding: 60px 10px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    overflow: hidden;
 }
-
-.vol {
+.volunteer .volunteer-items .item-1{
+    width:200px;
+    height: 200px;
+    position: relative;
     display: flex;
-    background: rgba(255, 255, 255, .1);
-    padding: 10px 10px;
-    color: #fff;
-    margin: 5px 0;
-    transition: .5s;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px rgb(78, 75, 75);
+    margin: 10px;
+    border-radius: 4px;
+    transition: .8s all;
+    overflow: hidden;
 }
-
-
-.vol:nth-child(1) {
-    background: rgba(255, 255, 255, .6);
+.volunteer .volunteer-items .item-1 img{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
 }
-
-.vol:nth-child(2) {
-    background: rgba(255, 255, 255, .4);
+.volunteer .volunteer-items .item-1:hover{
+    
+    border:1px solid rgba(255,255,255,.4);
+    transform: scale(1.08);
+    background: rgba(255,255,255,.6);
 }
-
-.vol:nth-child(3) {
-    background: rgba(255, 255, 255, .2);
+.volunteer .volunteer-items .item-1:hover > .name{
+    color: rgb(139, 137, 137);
 }
-
-.vol span:nth-child(1) {
-    width: 30px;
+.volunteer .volunteer-items .item-1 .name{
+    color: rgb(255, 255, 255);
 }
-
-.vol span:nth-child(2) {
-    width: 150px;
+.volunteer .volunteer-items .item-1 .location{
+    color: rgb(48, 47, 48);
+    font-size: 14px;
+    text-align: center;
 }
-
-.vol span:nth-child(3) {
-    width: 150px;
-    font-size: 15x;
+.volunteer .volunteer-items .item-1 .bloodgroup{
+    color: crimson;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
-
-.vol span:nth-child(4) {
-    width: 70px;
-
-}
-
-.vol:hover {
-    transform: scale(1.06);
-    background: #FFB6C1;
-}
-
-@media screen and (max-width: 510px) {
-
-    .volunt {
-        /* position: relative; */
-        width: 400px;
-        margin: 40px auto 0px;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .vol {
-        padding: 7px;
-        margin: 5px 0;
-        font-size: 16px;
-    }
-
-    .line {
-        display: none;
-    }
-
-    .content .volunteer {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .content .volunteer {
-        font-size: 16px;
-    }
-
-    .line {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .volunt {
-        width: 300px;
-        padding: 10px auto;
-    }
-
-    .vol {
-        padding: 5px;
-        margin: 4px 0;
-        font-size: 14px;
-    }
-
-    .content {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .volunt {
-        width: 270px;
-        padding: 10px auto;
-    }
-
-    .vol {
-        padding: 4px;
-        margin: 4px 0;
-        font-size: 13.5px;
-    }
-
-    .title-head {
-        font-size: 28px;
-    }
-}
-
-.title-head {
+.title-head{
     font-family: 'Alegreya Sans SC', sans-serif;
     background: white;
     padding-top: 8%;
@@ -438,7 +339,7 @@ main {
     font-size: 30px;
 }
 
-.content {
+.content{
     background: white;
     /* height: 100px; */
     padding-bottom: 10px;
@@ -448,31 +349,28 @@ main {
 
 
 /*Footer*/
-.sec {
+.sec{
     background: black;
     margin-top: 2%;
-    color: white;
+    color:white;
     height: 200px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
-
-.footer-head {
+.footer-head{
     display: flex;
     justify-content: space-around;
     padding-top: 4vh;
 }
-
-.bout {
+.bout{
     position: relative;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
     padding-top: 1vh;
 }
-
-.head {
+.head{
     padding-left: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 40px;
@@ -480,78 +378,68 @@ main {
     display: flex;
     align-items: center;
 }
-
-.sci li {
+.sci li{
     float: right;
     text-decoration: none;
     list-style: none;
     padding-right: 40px;
     font-size: 30px;
 }
-
-.socials {
+.socials{
     display: flex;
     align-items: center;
 }
-
-.sci li a {
+.sci li a{
     color: white;
 }
-
-.sci li a:hover {
+.sci li a:hover{
     transform: translateY(-20px);
-    box-shadow: inset-1px -1px 2px rgba(0, 0, 0, 0.2), 2px 24px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset-1px -1px 2px rgba(0,0,0,0.2), 2px 24px 10px rgba(0,0,0,0.1);
 }
 
-.sci li:nth-child(1) a:hover {
+.sci  li:nth-child(1) a:hover{
 
     color: #3b5998;
     transform: translateY(-20px);
 
 }
 
-.sci li:nth-child(2) a:hover {
+.sci li:nth-child(2) a:hover{
 
     color: rgba(188, 42, 141);
     transform: translateY(-20px);
 
 }
 
-.sci li:nth-child(3) a:hover {
+.sci li:nth-child(3) a:hover{
 
-    color: #F0E68C;
+    color:#F0E68C;
     transform: translateY(-20px);
 }
-
-@media screen and (max-width: 500px) {
-    .head {
-        padding-left: 15px;
-        font-size: 30px;
-        font-weight: 550;
-    }
-
-    .sci li {
-        padding-right: 15px;
-        font-size: 25px;
-    }
+@media screen and (max-width: 500px){
+     .head{
+         padding-left: 15px;
+         font-size: 30px;
+         font-weight: 550;
+     }
+     .sci li{
+         padding-right: 15px;
+         font-size: 25px;
+     }
 }
-
-@media screen and (max-width: 360px) {
-    .head {
+@media screen and (max-width: 360px){
+    .head{
         padding-left: 7px;
         font-size: 25px;
     }
-
-    .sci li {
+    .sci li{
         padding-right: 7px;
         font-size: 20px;
     }
-
-    .bout p {
+    .bout p{
         font-size: 18px;
     }
-
-    .bout {
+    .bout{
         padding-left: 2px;
         padding-right: 2px;
     }
