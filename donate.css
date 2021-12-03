@@ -1,19 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-body{
-    background-color: white;
-}
-header{
-  background-color: rgb(240, 240, 240);
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.header-logo{
-    height: auto;
+header {
+    background-color: white;
+    color: white;
+    height: 18%;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    font-weight: 100;
+}
+
+.header-logo {
+    font-size: 10px;
     float: left;
+
     width: 80px;
 }
 
@@ -21,87 +34,96 @@ header{
     float: right;
     margin-top: 10px;
     
+
+    padding-left: 30px;
+    padding-top: 0px;
+
+
 }
-.header-list ul li{
-    display: inline-block;
-    padding:5px;
-    margin: 5px;
-    margin-right: 10px;
-    
-}
-.header-list ul li a{
-    font-size: x-large;
-    font-weight: 100;
-    color: rgb(139, 139, 139);
+
+.header-list ul li a {
     text-decoration: none;
-    font-family: 'Jost', sans-serif;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: all ease 0.5s;
 }
-.header-list ul li a:hover{
-    color:#DC143C;
-    font-weight:bolder;
-    font-style: italic;
+
+.header-list ul li {
+    float: right;
+    padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    padding-right: 40px;
 }
 
+.des{
+    font-size: 24px;
+}
 
+header ul li a:hover {
+    background-color: rgba(220, 20, 60);
+    color: white;
+}
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f6f6f6;
-    height: 100%;
+    height: 70%;
 }
 
-.box{
+.box {
     width: 500px;
-    padding-top: 100px;
+    padding-top: 15%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom: 20px solid #DC143C;
-    justify-content: space-evenly;
 }
 
-.box h2{
+.box h2 {
     color: #fff;
     background: #DC143C;
-    padding: 10px;
-    font-size: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
     font-weight: 700;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
 
-.des{
-    display:block;
-    padding-left: 0px;
-}
-
-.box .des li{
-list-style: none;
-font-size: 25px;
-padding: 10px;
-width: 100%;
-background: #fff;
-box-shadow: 0 5px 25px rgba(0,0,0,0.1);
-transition: transform 0.5s;
-font-family: 'Patrick Hand', cursive;
+.box .des li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    font-family: 'Patrick Hand', cursive;
 }
 
 
-.box .des li:hover{
+.box .des li:hover {
     transform: scale(1.1);
     z-index: 100;
-    background:#DB7093;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    background: #DB7093;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
     color: #fff;
     cursor: pointer;
-    
+
 }
 
 
-.box .des li span{
+.box .des li span {
     width: 20px;
     height: 20px;
     text-align: center;
@@ -116,22 +138,22 @@ font-family: 'Patrick Hand', cursive;
     transform: translateY(-2px);
 }
 
-.box .des li:hover span{
-    background:#fff ;
+.box .des li:hover span {
+    background: #fff;
     color: #DB7093;
 }
 
-main{
+main {
     background: url(./Images/div.jpg);
 }
 
-.hero-btn{
+.hero-btn {
     display: inline-block;
     text-decoration: none;
     color: black;
     border: 1px solid #fff;
     padding: 12px 30px;
-    font-size:x-large;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -141,18 +163,138 @@ main{
     font-family: 'Patrick Hand SC', cursive;
 }
 
-.text-box{
+.text-box {
     width: 100%;
     color: #fff;
     text-align: center;
     font-family: 'Neuton', serif;
-    
+    border: none;
 
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     border: 1px solid #DC143C;
     background: #DC143C;
     transition: 1s;
     color: #fff;
     width: 88%;
+}
+
+
+
+/*Footer*/
+.sec {
+    background: black;
+    margin-top: 2%;
+    color: white;
+    height: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4vh;
+}
+
+.bout {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.bout p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.head {
+    padding-left: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.sci li {
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.sci li a {
+    color: white;
+}
+
+.sci li a:hover{
+    transform: translateY(-20px);
+    box-shadow: inset-1px -1px 2px rgba(0,0,0,0.2), 2px 24px 10px rgba(0,0,0,0.1);
+}
+
+.sci li:nth-child(1) a:hover{
+
+    color: #3b5998;
+    transform: translateY(-20px);
+
+}
+
+.sci li:nth-child(2) a:hover{
+
+    color: rgba(188, 42, 141);
+    transform: translateY(-20px);
+
+}
+
+.sci li:nth-child(3) a:hover{
+
+    color:#F0E68C;
+    transform: translateY(-20px);
+}
+@media screen and (max-width: 500px) {
+    .head {
+        padding-left: 15px;
+        font-size: 30px;
+        font-weight: 550;
+    }
+
+    .sci li {
+        padding-right: 15px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .head {
+        padding-left: 7px;
+        font-size: 25px;
+    }
+
+    .sci li {
+        padding-right: 7px;
+        font-size: 20px;
+    }
+
+    .bout p {
+        font-size: 18px;
+    }
+
+    .bout {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
 }
