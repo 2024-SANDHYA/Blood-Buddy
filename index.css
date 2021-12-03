@@ -179,6 +179,14 @@ p{
     line-height: 20px;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .about-col{
     transition:transform 1s;
     width: 25%;
@@ -188,7 +196,7 @@ p{
     position: relative;
     background: white;
     margin: 2%;
-
+    height: 350px;
 }
 .about-col:hover{
     transform:scale(1.03,1.03);
@@ -198,12 +206,10 @@ p{
     width: 50%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-  
 }
 
 .about h3{
     font-family: 'Alegreya Sans SC', sans-serif;
-    
 }
 
 .about-col p{
