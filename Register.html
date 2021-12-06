@@ -24,21 +24,21 @@
     </nav>
 </header>
 
-<div class="inner">
+<div class="inner" >
     <div class="photo">
         <img src="./Images/regphoto.png">
     </div>
-    <div class="user-form">
+    <div class="user-form" >
         <h1>Start Saving Lives</h1>
-        <form>
+        <form method="post" id="singupform">
             <i class="fas fa-user icon"></i>
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Name" id="name">
             <br>
             <i class="fas fa-envelope-square"></i>
-            <input type="email" placeholder="E-mail">
+            <input type="email" placeholder="E-mail" id="email">
             <br>
             <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" id="password">
             <div class="safety">
                 <span>Password Strength</span>
                 <span class="line"></span>
@@ -46,8 +46,8 @@
                 <span class="line"></span>
             </div>
             <div class="action-btn">
-                <button class="btn primary">Create Account</button>
-                <button class="btn">Skip</button>
+                <input type="submit"  class="btn primary" value="Singup">
+                <button class="btn primary link"><a href="./login.html"class="login_deco">login</a></button>
             </div>
         </form>
     </div>
@@ -55,3 +55,33 @@
 
 </body>
 </html>
+<script>
+var singupform=document.getElementById('singupform')
+    singupform.addEventListener('submit',function(e){
+        e.preventDefault()
+        var name=document.getElementById('name').value;
+        var email=document.getElementById('email').value;
+        var password=document.getElementById('password').value;   
+        fetch("http://localhost:5000/Register/singup", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name:name,
+                    email:email,
+                    password:password
+                })
+            }).then((res) => res.json())    
+            .then((data) =>{
+                console.log(data);
+                if(data.response==true){
+                    window.location.href="./donate.html";
+                }else{
+
+                 }
+            }
+             )
+            .catch((err) => console.log(err) )           
+    })
+</script>

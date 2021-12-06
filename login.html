@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='Register.css'>
+    <link rel="icon" href='./Images/bb_logo(black).png' type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<title>Start Saving Lives </title>
+<body>
+<header>
+    <nav>
+    <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
+    <div class="header-list">
+        <ul>
+            <li><a href="index.html">Get Help</li></a>
+            <li><a href="index.html">Donate</li></a>
+            <li><a href="index.html">Volunteer</li></a>
+            <li><a href="index.html">About Us</a></li>
+            </ul>
+    </div>
+    </nav>
+</header>
+
+<div class="inner" >
+    <div class="photo">
+        <img src="./Images/regphoto.png">
+    </div>
+    <div class="user-form" >
+        <h1>Start Saving Lives</h1>
+        <form method="post" id="loginform">
+            <i class="fas fa-envelope-square"></i>
+            <input type="email" placeholder="E-mail" id="email">
+            <br>
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="password">
+            <div class="safety">
+                <span>Password Strength</span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="action-btn">
+                <input type="submit"  class="btn primary" value="login">
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+
+var loginform=document.getElementById('loginform')
+    loginform.addEventListener('submit',function(e){
+        e.preventDefault()
+        var email=document.getElementById('email').value;
+        var password=document.getElementById('password').value;   
+        fetch("http://localhost:5000/Register/login", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name:name,
+                    email:email,
+                    password:password
+                })
+            }).then((res) => res.json())    
+            .then((data) =>{
+                if(data.response==true){
+                    localStorage.setItem("Resp",data.response);
+                    window.location.href="./donate.html";
+                }else{
+                    alert('invalid credential')
+                }
+            }
+             )
+            .catch((err) => console.log(err) )           
+    })
+</script>
