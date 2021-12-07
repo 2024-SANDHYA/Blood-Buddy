@@ -93,25 +93,7 @@ nav img {
     font-size: 26px;
     color: #fff;
 }
-/*
-.hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 30px;
-    
-    font-size: 25px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    width: 20vh;
-    letter-spacing: 3px;
-    height: 8vh;
-    font-family: 'Patrick Hand SC', cursive;
-    
-}
-*/
+
 
 
 .hero-btn{
@@ -197,17 +179,7 @@ pointer-events: none;
 
 
 
-  /*
-
-.hero-btn:hover {
-    border: 1px solid #CD5C5C;
-    background: #CD5C5C;
-    transition: s;
-    transform: scale(-1);
-color: black;
-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
-}
-*/
+  
 nav .fa {
     display: none;
 }
