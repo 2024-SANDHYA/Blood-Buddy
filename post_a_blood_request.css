@@ -120,7 +120,7 @@ h2:after{
     bottom: 0;
     transform: translateX(-50%);
     height: 4px;
-    width: 50px;
+    width: 100px;
     border-radius: 2px;
     background-color:  	#008B8B;
 }
