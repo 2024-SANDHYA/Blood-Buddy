@@ -1,0 +1,27 @@
+@use "../abstracts" as *;
+:root {
+  font-size: 13px;
+  @include media("md") {
+    font-size: 13.6px;
+  }
+
+  // font-sizes
+  --fs-ratio: 1.25; // major third
+  --base: 1rem;
+
+  --fs-1000: calc(var(--fs-900) * var(--fs-ratio));
+  --fs-900: calc(var(--fs-800) * var(--fs-ratio));
+  --fs-800: calc(var(--fs-700) * var(--fs-ratio));
+  --fs-700: calc(var(--fs-600) * var(--fs-ratio));
+  --fs-600: calc(var(--fs-500) * var(--fs-ratio));
+  --fs-500: calc(var(--fs-400) * var(--fs-ratio));
+  --fs-400: calc(var(--base));
+
+  //measure
+  --measure-60: 60ch;
+  --measure-50: 52ch;
+  --measure-40: 45ch;
+  --measure-30: 32ch;
+  --measure-20: 20ch;
+  --measure-10: 10ch;
+}

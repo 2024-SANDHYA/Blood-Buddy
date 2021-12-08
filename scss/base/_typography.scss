@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: var(--fs-400);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+// 1rem -- 13.6px
+// 0.75rem -- 10.2px
+// 0.50rem -- 6.8px
+// 0.25rem -- 3.4px
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: clamp(3rem, 8vw, 5rem);
+  padding-block: 1rem 1.75rem;
+  line-height: 0.9em;
+}
+h2 {
+  font-size: var(--fs-1000);
+  padding-block: 0.5rem 1rem;
+}
+.h2-s {
+  font-size: var(--fs-900);
+  padding-block: 0.5rem 1rem;
+}
+h3 {
+  font-size: var(--fs-700);
+  padding-block: 0.5rem 0.5rem;
+  color: clr(accent-2);
+}
+.subtitle {
+  font-size: var(--fs-600);
+  padding-block: 0.75rem 0.5rem;
+}
+p {
+  opacity: 0.8;
+  padding-block: 0.25rem 0.5rem;
+  max-width: var(--measure-60);
+}

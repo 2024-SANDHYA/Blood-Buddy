@@ -1,0 +1,16 @@
+.home__about {
+  &__main {
+    --block-gap: 3rem;
+    row-gap: 3rem;
+    column-gap: 2rem;
+
+    grid-template-columns: repeat(2, minmax(0, max-content));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+
+    & > * {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  }
+}

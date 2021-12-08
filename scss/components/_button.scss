@@ -1,0 +1,99 @@
+@use "../abstracts" as *;
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+.btn--primary {
+  //typography
+  letter-spacing: 0.75px;
+
+  //appearance
+  background-color: clr(accent-1);
+  color: clr(light);
+  padding: 0.75rem 2.25rem;
+
+  //animation
+  transition: 450ms background-color;
+
+  //states
+  &:hover,
+  &:focus {
+    background-color: clr(accent-2);
+  }
+}
+
+.btn--social {
+  & > img {
+    height: var(--fs-600);
+    object-fit: contain;
+
+    position: relative; // for putting it on the top of before element
+  }
+
+  transition: transform 250ms;
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  // focus-visible
+  position: relative;
+  &:focus-visible {
+    &::before {
+      content: "";
+      position: absolute;
+      height: 200%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      background-color: clr(accent-2);
+    }
+  }
+}
+
+//button--arrow
+.btn--arrow {
+  display: grid;
+  place-content: center;
+  & svg {
+    width: var(--fs-1000);
+    @include media("md") {
+      width: calc(var(--fs-1000) * 1.5);
+    }
+    aspect-ratio: 1;
+    fill: clr(light);
+    transition: fill 250ms;
+    position: relative; // for putting it on the top of before element
+  }
+  &:hover svg {
+    fill: rgba($color: clr(light), $alpha: 0.65);
+  }
+
+  // focus-visible
+  position: relative;
+  &:focus-visible {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 75%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      background-color: clr(accent-2);
+    }
+  }
+}

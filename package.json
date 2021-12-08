@@ -4,7 +4,9 @@
   "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass ./scss/main.scss ./index.css --watch",
+    "sass-build": "sass ./scss/main.scss ./index.css"
   },
   "repository": {
     "type": "git",

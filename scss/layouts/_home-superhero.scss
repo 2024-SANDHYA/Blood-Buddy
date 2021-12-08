@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+.home__superhero__container {
+  background-image: url("assets/home/mobile/bg_superhero.jpg");
+  @include media("md") {
+    background-image: url("assets/home/tablet/bg_superhero.png");
+  }
+  @include media("lg") {
+    background-image: url("assets/home/desktop/bg_superhero.jpg");
+  }
+}
+.home__superhero {
+  &__main {
+    place-content: center;
+    column-gap: 1rem;
+    grid-template-columns:
+      max-content minmax(var(--measure-20), calc(var(--measure-30) + 12em))
+      max-content;
+
+    & .card--superhero {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    & .btn {
+      align-self: center;
+    }
+  }
+}

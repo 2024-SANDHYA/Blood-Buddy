@@ -1,0 +1,30 @@
+@use "./maps" as *;
+@use "./functions" as *;
+
+// media
+@mixin media($min, $max: null) {
+  $min-width: 0px;
+  $max-width: null;
+
+  @if type-of($min) == "string" {
+    $min-width: map-get($breakpoints, $min);
+  } @else {
+    $min-width: $min;
+  }
+
+  @if $max {
+    @if type-of($max) == "string" {
+      $max-width: map-get($breakpoints, $max);
+    } @else {
+      $max-width: $max;
+    }
+
+    @media (min-width: $min-width) and (max-width: $max-width) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $min-width) {
+      @content;
+    }
+  }
+}

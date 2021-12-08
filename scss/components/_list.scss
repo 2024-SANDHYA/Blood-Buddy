@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+.list--social {
+  gap: 1.75rem;
+
+  justify-content: center;
+  @include media("md") {
+    justify-content: space-between;
+  }
+}
