@@ -601,3 +601,7 @@ main {
         padding-right: 2px;
     }
 }
+.header-list {
+  margin-right: 35px;
+  margin-top: 30px;
+}
