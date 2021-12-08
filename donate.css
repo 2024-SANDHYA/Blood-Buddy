@@ -14,54 +14,28 @@
 }
 
 header {
-    background-color: white;
+    background-color: transparent;
     color: white;
     height: 18%;
-    width: 100%;
+    width: 30%;
     z-index: 10;
     position: fixed;
     font-weight: 100;
+    z-index: 1000;
 }
 
 .header-logo {
-    font-size: 10px;
-    float: left;
     padding-left: 30px;
     padding-top: 0px;
-
 }
 
-.header-list ul li a {
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding: 20px;
-    transition: all ease 0.5s;
+@media screen and (max-width: 800px) {
+    .header-logo {
+        padding-left: 0px;
+    }
 }
 
-.header-list ul li {
-    float: right;
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
-    padding-right: 40px;
-}
 
-.des{
-    font-size: 24px;
-}
-
-header ul li a:hover {
-    background-color: rgba(220, 20, 60);
-    color: white;
-}
 
 main {
     display: flex;

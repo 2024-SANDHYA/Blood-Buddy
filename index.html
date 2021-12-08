@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href='./Images/bb_logo(white).png' type="image/png">
     <link rel="stylesheet" href='index.css'>
+    <link rel="stylesheet" href='navbar.css'>
     <link rel="stylesheet" href='https://fontawesome.com/v4.7.0/icon/bars'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
@@ -15,20 +16,39 @@
 
 <body>
     <!-- Home Page -->
+    <!--===== Navbar =====-->
+    <nav class="navbar fixed-top">
+
+        <button class="navbar-mobile-toggle" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div id="navbar">
+            
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#about-us">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#vol-sect">Volunteer</a></li>
+            <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+            <li class="nav-item"><a class="nav-link" href="help.html">Get Help</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="mobile-nav" class="mobile-nav">
+        <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about-us">About</a>
+        <a href="#vol-sect">Volunteer</a>
+        <a href="donate.html">Donate</a>
+        <a href="help.html">Get Help</a>
+      </div>
+      
+
     <header>
         <nav>
-            <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
-            <div class="header-list" id="headerl">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#vol-sect">Volunteer</a></li>
-                    <li><a href="donate.html" target="_blank">Donate</a></li>
-                    <li><a href="help.html" target="_blank">Get Help</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <a class="header-logo" href="index.html"><img src="./Images/bb_logo(white).png"></a>
         </nav>
+
         <div class="text-box">
             <h1> Start Saving Lives </h1>
             <p>Become a donor or request for blood and help save lives</p>
@@ -117,7 +137,7 @@
 
     <!--Volunteer Section-->
 
-    <div class="volunteer" section id="vol-sect">
+    <section class="volunteer" id="vol-sect">
         <div class="title-head">
             <h1 class="title">Our super heroes </h1>
         </div>
@@ -205,7 +225,7 @@
             </li>
 
         </ul>
-    </div>
+    </section>
 
     <!--FOOTER-->
 
@@ -231,19 +251,10 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!--JAVASCRIPT FOR TOGGLE MENU -->
-    <script>
-        var headerl = document.getElementById("headerl");
+    <script src="script.js"></script>
 
-        function showMenu() {
-            headerl.style.right = "0";
-        }
-
-        function hideMenu() {
-            headerl.style.right = "-210px";
-        }
-    </script>
 </body>
 
 </html>

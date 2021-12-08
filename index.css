@@ -23,52 +23,6 @@ header {
 
 
 
-nav {
-    display: flex;
-    padding: 2%, 6%;
-    justify-content: space-between;
-}
-
-nav img {
-    width: 200px;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-.nav .header-list {
-    flex: 1;
-    text-align: right;
-}
-
-.header-list ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 15px;
-    position: relative;
-
-}
-
-.header-list ul li a {
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
-    font-family: 'Fredoka One', cursive;
-}
-
-.header-list ul li::after {
-    content: '';
-    height: 2px;
-    background: #CD5C5C;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-    width: 0%;
-}
-
-.header-list ul li:hover::after {
-    width: 100%;
-}
-
 .text-box {
     width: 90%;
     color: #fff;

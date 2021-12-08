@@ -5,24 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='Register.css'>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="icon" href='./Images/bb_logo(black).png' type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <title>Start Saving Lives </title>
 <body>
-<header>
-    <nav>
-    <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
-    <div class="header-list">
-        <ul>
-            <li><a href="index.html">Get Help</li></a>
-            <li><a href="index.html">Donate</li></a>
-            <li><a href="index.html">Volunteer</li></a>
-            <li><a href="index.html">About Us</a></li>
-            </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
+
+        <button class="navbar-mobile-toggle" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbar">
+            
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Volunteer</a></li>
+            <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+            <li class="nav-item"><a class="nav-link" href="help.html">Get Help</a></li>
+          </ul>
+        </div>
     </nav>
-</header>
+
+    <div id="mobile-nav" class="mobile-nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="header-logo" href="index.html"><img src="./Images/bb_logo(white).png"></a>
+        <a href="index.html">About</a>
+        <a href="index.html">Volunteer</a>
+        <a href="donate.html">Donate</a>
+        <a href="help.html">Get Help</a>
+    </div>
+
+    <header>
+        <a href="index.html"><img class="header-logo" src="./Images/bb_logo(black).png"></a>
+    </header>
 
 <div class="inner">
     <div class="photo">
@@ -52,6 +69,17 @@
         </form>
     </div>
 </div>
+
+
+<script>
+    // Open and close mobile nav
+    function openNav() {
+        document.getElementById("mobile-nav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mobile-nav").style.width = "0";
+    }
+</script>
 
 </body>
 </html>
