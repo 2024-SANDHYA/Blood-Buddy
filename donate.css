@@ -48,9 +48,10 @@ header {
 
 .header-list ul li {
     float: right;
+    padding-left: 30px;
     padding-top: 30px;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .des{
@@ -88,10 +89,6 @@ main {
     border-top-right-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-}
-.box .des a{
-    text-decoration: none;
-    color: black;
 }
 
 .box .des li {
@@ -134,6 +131,11 @@ main {
 .box .des li:hover span {
     background: #fff;
     color: #DB7093;
+}
+
+.box .des a{
+    text-decoration: none;
+    color: black;
 }
 
 main {

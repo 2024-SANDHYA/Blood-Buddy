@@ -69,6 +69,40 @@ nav img {
     width: 100%;
 }
 
+.request_blood{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #EDEDED;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.request_blood img{
+    height: 40px;
+    width: 40px;
+}
+.request_lable{
+    position: fixed;
+    display: none;
+    right: 100px;
+    bottom: 30px;
+    padding: 10px;
+    background-color: #EDEDED;
+    box-shadow: 3px 3px 5px black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    z-index: 3;
+}
+.request_blood:hover ~ .request_lable{
+    display: block;
+}
 .text-box {
     width: 90%;
     color: #fff;

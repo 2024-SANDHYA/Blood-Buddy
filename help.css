@@ -50,9 +50,10 @@ header{
 
 .header-list ul li {
     float: right;
+    padding-left: 30px;
     padding-top: 30px;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 header ul li a:hover{

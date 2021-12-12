@@ -14,22 +14,21 @@
     padding: 0px;
 }
 
-header{
+header {
     background-color: white;
     color: white;
     height: 18%;
     width: 100%;
-	z-index: 10;
-	position: fixed;
+    z-index: 10;
+    position: fixed;
     font-weight: 100;
 }
 
-.header-logo{
+.header-logo {
     font-size: 10px;
     float: left;
     padding-left: 30px;
     padding-top: 0px;
-    padding-bottom: 12%;
 
 }
 
@@ -50,10 +49,12 @@ header{
 
 .header-list ul li {
     float: right;
+    padding-left: 30px;
     padding-top: 30px;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 40px;
 }
+
 
 header ul li a:hover{
     background-color:rgba(220,20,60);
