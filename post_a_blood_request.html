@@ -31,29 +31,31 @@
 
     <main>
         <div class="container">
-            <div class="contact-box">
-                <div class="left">
-                    <h2>Post A Blood Request </h2>
-                    <form>
-                        <input type="text" class="field" placeholder="Your Name">
-                        <input type="text" class="field" placeholder="Your Email">
-                        <input type="text" class="field" placeholder="Phone">
-                        <textarea placeholder="Address" class="field"></textarea>
-                        <select name="blood_groups" id="blood_groups">
-                            <option value="" disabled selected>Blood Groups</option>
-                            <option value="A+">A+</option>
-                            <option value="A-">A-</option>
-                            <option value="B+">B+</option>
-                            <option value="B-">B-</option>
-                            <option value="AB+">AB+</option>
-                            <option value="AB-">AB-</option>
-                            <option value="O+">O+</option>
-                            <option value="O-">O-</option>
-                        </select>
-                        <button class="btn">Post</button>
-                    </form>
-                </div>
-                <div class="right"></div>
+            <div class="get_blood">
+                <h2>Post A Blood Request </h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" class="field">
+                    <label for="name">Email:</label>
+                    <input type="text" class="field">
+                    <label for="name">Contact No:</label>
+                    <input type="number" class="field">
+                    <label for="name">Address:</label>
+                    <textarea class="field"></textarea>
+                    <label for="name">Blood Groups:</label>
+                    <select name="blood_groups" id="blood_groups">
+                        <option value="" disabled selected>Blood Groups</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                    <button class="btn">Post</button>
+                </form>
             </div>
         </div>
     </main>
