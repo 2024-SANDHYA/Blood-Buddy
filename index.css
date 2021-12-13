@@ -4,10 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Nanum+Pen+Script&family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Courier+Prime&family=Nanum+Pen+Script&family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -46,13 +50,18 @@ nav img {
     padding: 8px 15px;
     position: relative;
 
+
 }
 
 .header-list ul li a {
+    position: relative;
+    top: 5px;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+   text-transform: uppercase;
+   letter-spacing: 4px;
 }
 
 .header-list ul li::after {
@@ -77,43 +86,55 @@ nav img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Neuton', serif;
     line-height: 50px;
+
+}
+.head-des{
+    margin-top: -30px;
+     font-size: 20px;
+     letter-spacing: 1px;
+     word-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .text-box h1 {
     font-size: 70px;
-    font-family: 'Neuton', serif;
     letter-spacing: 8px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .text-box p {
-    margin: 10px 0 40px;
+  margin: 30px 0;
     font-size: 26px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: 'Courier Prime', monospace;
+    letter-spacing: 5px;
+
 }
 
 .hero-btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 30px;
+    padding-top: 12px;
     font-size: 25px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    width: 20vh;
+    width: 21vh;
     letter-spacing: 3px;
-    height: 8vh;
-    font-family: 'Patrick Hand SC', cursive;
+    height: 10vh;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: rgba(255, 248, 220, 0.171);
+    transition: .2s all ease-in;
 }
 
 .hero-btn:hover {
-    border: 1px solid #CD5C5C;
-    background: #CD5C5C;
-    transition: 1s;
+    background-color: cornsilk;
+    color: rgb(0, 0, 116);
+    border: 0px solid;
+border-radius: 40px;
 }
 
 nav .fa {
@@ -201,6 +222,7 @@ p {
 
 .about-col:hover {
     transform: scale(1.03, 1.03);
+    cursor: pointer;
 }
 
 .image img {
@@ -227,11 +249,16 @@ p {
 
 }
 
+
 .heading {
     font-size: 36px;
     font-weight: 600;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(72, 72, 72);
 }
+
 
 main {
     background: url(../Images/ug.png);
@@ -441,9 +468,11 @@ main {
 .content {
     background: white;
     /* height: 100px; */
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     padding-top: 20px;
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 
@@ -470,6 +499,8 @@ main {
     padding-left: 20px;
     text-align: center;
     padding-top: 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
 }
 
 .head {
