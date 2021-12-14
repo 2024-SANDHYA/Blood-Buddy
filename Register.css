@@ -120,6 +120,7 @@ input{
     display: flex;
     justify-content: space-between;
     color: #fff;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .line{
