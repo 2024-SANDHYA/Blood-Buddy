@@ -135,6 +135,7 @@ h2:after{
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
+	font-family: 'Advent Pro', sans-serif;
 }
 
 .field:hover{
@@ -212,6 +213,7 @@ main{
     font-weight: 300;
     padding: 10px;
     line-height: 20px;
+    font-family: sans-serif;
 }
 
 .head {
