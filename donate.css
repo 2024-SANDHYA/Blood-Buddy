@@ -159,6 +159,7 @@ main {
     text-align: center;
     font-family: 'Neuton', serif;
     border: none;
+    margin-top:50px;
 
 }
 
@@ -203,6 +204,7 @@ main {
     font-weight: 300;
     padding: 10px;
     line-height: 20px;
+    font-family: sans-serif;
 }
 
 .head {
