@@ -190,8 +190,12 @@ p {
 .about-col {
     transition: transform 1s;
     width: 25%;
+  
     display: inline-block;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border: red;
+   border-style: solid;
+   border-width: 3px;
+   background-color: aqua;
     border-radius: 5px;
     position: relative;
     background: white;
@@ -201,6 +205,7 @@ p {
 
 .about-col:hover {
     transform: scale(1.03, 1.03);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .image img {
@@ -236,6 +241,16 @@ p {
 main {
     background: url(../Images/ug.png);
     z-index: -10;
+}
+.image .about_network_img{
+  width: 44%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.blood-innovative{
+    color:red;
+    font-style: bold;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 540px) {
