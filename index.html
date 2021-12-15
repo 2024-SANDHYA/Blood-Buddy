@@ -1,249 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href='./Images/bb_logo(white).png' type="image/png">
-    <link rel="stylesheet" href='index.css'>
-    <link rel="stylesheet" href='https://fontawesome.com/v4.7.0/icon/bars'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Blood Buddy</title>
+    <link rel="icon" href='./assets/favicon.png' type="image/png">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="index.css">
 
+    <!-- scripts -->
+    <script src="./scripts/supe-slider.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700;800;900&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<title>BLOOD BUDDY</title>
-
-<body>
-    <!-- Home Page -->
-    <header>
-        <nav>
-            <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
-            <div class="header-list" id="headerl">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#vol-sect">Volunteer</a></li>
-                    <li><a href="donate.html" target="_blank">Donate</a></li>
-                    <li><a href="help.html" target="_blank">Get Help</a></li>
-                </ul>
+<body class="home">
+    <!-- Hero -->
+    <div class="bg:image home__hero container">
+        <!-- Primary Header -->
+        <header class="header--primary">
+            <a href="index.html" class="logo__link">
+                <img src="./assets/logo.svg" class="logo" alt="Logo">
+            </a>
+        </header>
+        <!-- Intro -->
+        <section class="home__intro layout:block-grid--sm text-align:center@z-only">
+            <div class="home__intro__main">
+                <h1>
+                    Start<br>
+                    Saving<br>
+                    Lives
+                </h1>
+                <p>We depend on volunteers! Volunteers make up 96% of our total workforce and carry on our humanitarian work. Blood donation is healthy, our volunteers are available 24/7 to help and donate blood. Blood banks store blood bags but our volunteers are there with you in an emergency for a blood transfusion real time.</p>
+                <a href="register.html" class="btn btn--primary">Register</a>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1> Start Saving Lives </h1>
-            <p>Become a donor or request for blood and help save lives</p>
-            <a href='Register.html' class="hero-btn" target="_blank">Register</a>
-        </div>
-    </header>
+        </section>
+    </div>
+    <!-- About -->
+    <div class="container bg:light">
+        <section class="home__about">
+            <header class="home__aobut__header header--about">
+                <h2 class="home__about__title text-align:center">About</h2>
+            </header>
+            <div class="home__about__main layout:block-grid--md">
+                <!-- What We Do? -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_what-we-do.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">What We Do?</h3>
+                    <p class="card--about__para card__para">
+                        We connect blood donors with recipients, without any intermediary such as blood banks, for an efficient and seamless process.
+                    </p>
+                </div>
+                
+                <!-- Innovation -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_innovation.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">Innovation</h3>
+                    <p class="card--about__para card__para">
+                        Bloood Buddy is an innovative approach to address global heath.We provide immediate access to blood donors.
+                    </p>
+                </div>
 
-    <!--ABOUT US -->
+                <!-- Network -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_network.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">Network</h3>
+                    <p class="card--about__para card__para">
+                        Blood Buddy is one of several community organizations working together as a network that responds to emergencies in an efficient manner.
+                    </p>
+                </div>
 
-    <main>
-        <section id="about-us">
-            <div class="about">
-                <h1 class="heading">What is this all about ?</h1> <br>
-                <p class="head-des" class="text">We solve the problem of blood emergencies by connecting <span
-                        class="one-line"><br></span>
-                    blood donors directly with people in blood need. </p>
-                <div class="row">
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/drop.png">
-                        </div>
-                        <h3>What we do ?</h3>
-                        <p>We connect blood donors with
-                            recipients, without any
-                            intermediary such as blood
-                            banks, for an efficient and
-                            seamless process.</p>
-                    </div>
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/innovation.png">
-                        </div>
-                        <h3>Innovative</h3>
-                        <p>Bloood Buddy is an innovative approach
-                            to address global
-                            heath.We provide <span>immediate
-                                access</span> to blood donors.</p>
-                    </div>
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/netwotk.png">
-                        </div>
-                        <h3>Network</h3>
-                        <p>Blood Buddy is one of several
-                            community organizations working
-                            together as a network that
-                            responds to emergencies in an efficient manner.</p>
-                    </div>
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/noti.png">
-                        </div>
-                        <h3>Get notified</h3>
-                        <p>Blood Buddy Connect works with
-                            network partners to connect
-                            blood donors and recipients
-                            through an automated SMS
-                            service and a mobile app.</p>
-                    </div>
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/cost.png">
-                        </div>
-                        <h3>Totally Free</h3>
-                        <p>Blood Budyy's ultimate goal
-                            is to provide an easy
-                            -to-use, easy-to-access, fast, efficient, and
-                            reliable way to get life-saving
-                            blood, totally <span>Free of cost.</span></p>
-                    </div>
-                    <div class="about-col">
-                        <div class="image">
-                            <img src="./Images/save.png">
-                        </div>
-                        <h3>Save Life</h3>
-                        <p>We are a non profit foundation
-                            and our main objective is to make
-                            sure that everything is done to
-                            protect vulnerable persons.<span>Help
-                                us by making a gift!</span></p>
-                    </div>
+                <!-- Get Notified -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_get-notified.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">Get Notified</h3>
+                    <p class="card--about__para card__para">
+                        Blood Buddy Connect works with network partners to connect blood donors and recipients through an automated SMS service and a mobile app.
+                    </p>
+                </div>
+
+                <!-- Totally Free -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_totally-free.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">Totally Free</h3>
+                    <p class="card--about__para card__para">
+                        Blood Budyy's ultimate goal is to provide an easy -to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost.
+                    </p>
+                </div>
+
+                <!-- Save Life -->
+                <div class="card card--about layout:grid">
+                    <img src="./assets/home/desktop/about_save-life.png" class="card__image card--about__image" alt="A woman incouraging for blood donation">
+                    <h3 class="card__title card--about__title">Save Life</h3>
+                    <p class="card--about__para card__para">
+                        We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons.Help us by making a gift!
+                    </p>
                 </div>
             </div>
         </section>
-    </main>
-
-    <!--Volunteer Section-->
-
-    <div class="volunteer" section id="vol-sect">
-        <div class="title-head">
-            <h1 class="title">Our super heroes </h1>
-        </div>
-        <p class="content">We depend on volunteers! Volunteers make up 96% of our total<span class="line"><br></span>
-            workforce and carry on our humanitarian work. Blood donation is healthy,<span class="line"><br></span>
-            our volunteers are available 24/7 to help and donate blood. Blood banks store blood<span
-                class="line"><br></span>
-            bags but our volunteers are there with you in an emergency for a blood transfusion real time.</p>
-        <ul class="volunt">
-            <li class="vol">
-                <span class=" vol-i number">1 </span>
-                <span class=" vol-i name">Ritik</span>
-                <span class=" vol-i location">Joga,<br>Uttar Pradesh</span>
-                <span class=" vol-i blood group">O+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-            <li class="vol">
-                <span class=" vol-i number">2</span>
-                <span class=" vol-i name">Mehere kaur</span>
-                <span class=" vol-i location">Ghaziabad,<br>Uttar Pradesh</span>
-                <span class=" vol-i blood group">B+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-            <li class="vol">
-                <span class=" vol-i number">3</span>
-                <span class=" vol-i name">Kenny</span>
-                <span class=" vol-i location">Kerela,<br>India</span>
-                <span class=" vol-i blood group">AB+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-            <li class="vol">
-                <span class=" vol-i number">4</span>
-                <span class=" vol-i name">Sarah</span>
-                <span class=" vol-i location">Tamil Nadu,<br>India</span>
-                <span class=" vol-i blood group">A+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">5</span>
-                <span class=" vol-i name">Kenneth</span>
-                <span class=" vol-i location">Ayodhya,<br>Uttar Pradesh</span>
-                <span class=" vol-i blood group"> O+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">6</span>
-                <span class=" vol-i name">Ritika</span>
-                <span class=" vol-i location">Ramnagar,<br>Uttarakhand</span>
-                <span class=" vol-i blood group">O+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">7</span>
-                <span class=" vol-i name">Krish Maurya</span>
-                <span class=" vol-i location">Surat,<br>Gujarat</span>
-                <span class=" vol-i blood group">O- <i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">8</span>
-                <span class=" vol-i name">Tushkar</span>
-                <span class=" vol-i location">Bengaluru,<br>Karnataka</span>
-                <span class=" vol-i blood group">AB+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">9</span>
-                <span class=" vol-i name">Nitin</span>
-                <span class=" vol-i location">Lucknow</span>
-                <span class=" vol-i blood group">AB-<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-            <li class="vol">
-                <span class=" vol-i number">10</span>
-                <span class=" vol-i name">Riya</span>
-                <span class=" vol-i location">Delhi,<br>India</span>
-                <span class=" vol-i blood group">B+<i class="fa fa-tint" aria-hidden="true"></i>
-                </span>
-            </li>
-
-        </ul>
     </div>
+    <!-- Superhero -->
+    <div class="home__superhero__container container bg:image">
+        <section class="home__superhero">
+            <header class="home__superhero__header header--superhero">
+                <h2 class="home__superhero__title text-align:center@sm-only">Our<br>Superhero</h2>
+            </header>
+            <div class="home__superhero__main text-align:center layout:grid">
+                <button id="btn--arrow-left" class="btn btn--arrow btn--arrow-left">
+                    <svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+                        <path d="M0-.5h24v24H0z" fill="none"/>
+                    </svg>
+                </button>
 
-    <!--FOOTER-->
+                <!-- Dhiraj Arun -->
+                <div class="card card--superhero">
+                    <img class="card--superhero__image card__image" src="./assets/home/desktop/superhero_dhiraj.png" alt="Dhiraj Arun">
+                    <!-- 32ch max line width and should not exceed more than the four lines at its max width -->
+                    <p class="card__para card--superhero__para" class="card--superhero__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum labore fugiat numquam. Voluptates sit culpa deleniti nisi.</p>
+                    <h3 class="card__title card--superhero__title subtitle color:accent-2--light">
+                        Dhiraj, Delhi
+                    </h3>
+                </div>
 
-    <div class="sec">
-        <div class="footer-head">
-            <div class="head"> Join Our Cause</div>
-            <div class="socials">
-                <ul class="sci">
-                    <li><a href="https://www.facebook.com/givebloodnhs/" target="_blank"><i
-                                class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/indiablooddonation/?hl=en" target="_blank"><i
-                                class="fab fa-instagram"></i></a></li>
-                    <li><a href="http://nbtc.naco.gov.in/" target="_blank"><i class="fas fa-globe"></i></a></li>
-                </ul>
+                <!-- Kenny -->
+                <div hidden class="card card--superhero">
+                    <img class="card--superhero__image card__image" src="./assets/home/desktop/superhero_kenny.png" alt="Dhiraj Arun">
+                    <!-- 32ch max line width and should not exceed more than the four lines at its max width -->
+                    <p class="card__para card--superhero__para" class="card--superhero__para">Consectetur adipiscing elit. Mauris feugiat convallis risus fermentum volutpat. Vivamus nec lobortis enim. Pellentesque feugiat ex pharetra.</p>
+                    <h3 class="card__title card--superhero__title subtitle color:accent-2--light">
+                        Kenny, Kerala
+                    </h3>
+                </div>
+
+                <!-- Mehere -->
+                <div hidden class="card card--superhero">
+                    <img class="card--superhero__image card__image" src="./assets/home/desktop/superhero_mehere.png" alt="Dhiraj Arun">
+                    <!-- 32ch max line width and should not exceed more than the four lines at its max width -->
+                    <p class="card__para card--superhero__para" class="card--superhero__para">Vestibulum sed placerat orci, ac tincidunt turpis. Nulla augue lectus, laoreet ut mollis et, accumsan in massa. Cras non ultricies metus.</p>
+                    <h3 class="card__title card--superhero__title subtitle color:accent-2--light">
+                        Mehere, Ghaziabad
+                    </h3>
+                </div>
+
+                <!-- Ritik -->
+                <div hidden class="card card--superhero">
+                    <img class="card--superhero__image card__image" src="./assets/home/desktop/superhero_ritik.png" alt="Dhiraj Arun">
+                    <!-- 32ch max line width and should not exceed more than the four lines at its max width -->
+                    <p class="card__para card--superhero__para" class="card--superhero__para">Duis consequat porttitor porta. Vivamus laoreet blandit metus. Aliquam efficitur sit amet sapien nec blandit. Ut aliquam non sapien eu luctus.</p>
+                    <h3 class="card__title card--superhero__title subtitle color:accent-2--light">
+                        Ritik, Joga
+                    </h3>
+                </div>
+
+                <!-- Sarah -->
+                <div hidden class="card card--superhero">
+                    <img class="card--superhero__image card__image" src="./assets/home/desktop/superhero_sarah.png" alt="Dhiraj Arun">
+                    <!-- 32ch max line width and should not exceed more than the four lines at its max width -->
+                    <p class="card__para card--superhero__para" class="card--superhero__para"> Fusce quis erat sit amet purus tincidunt ornare ac sit amet ipsum. Aenean pellentesque in justo ac accumsan. Phasellus ut tristique euismod.</p>
+                    <h3 class="card__title card--superhero__title subtitle color:accent-2--light">
+                        Sarah, Tamil Nadu
+                    </h3>
+                </div>
+
+                <button id="btn--arrow-right" class="btn btn--arrow btn--arrow-right">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+                        <path d="M0-.25h24v24H0z" fill="none"/>
+                      </svg>
+                </button>
             </div>
-        </div>
-        <div class="bout">
-            <p>
-                Donating blood or platelets can be intimidating and even scary.
-                Time to put those hesitations and fears aside. Learn from Blood Buddy
-                and platelet donors how simple and easy it is to roll up a sleeve and help save lives.
-            </p>
-        </div>
+        </section>
     </div>
-
-
-    <!--JAVASCRIPT FOR TOGGLE MENU -->
-    <script>
-        var headerl = document.getElementById("headerl");
-
-        function showMenu() {
-            headerl.style.right = "0";
-        }
-
-        function hideMenu() {
-            headerl.style.right = "-210px";
-        }
-    </script>
+    <!-- Footer -->
+    <div class="container bg:dark">
+        <footer class="footer footer--primary layout:block-grid--md text-align:center@sm-only">
+            <h2 class="footer--primary__title h2-s ">
+                Join Our Cause
+            </h2>
+            <ul class="footer--primary__socials list list--social layout:flex">
+                <li>
+                    <a href="www.facebook.com" class="btn btn--social"><img src="./assets/icons/icon_fb.svg" alt="FB"></a>
+                </li>
+                <li>
+                    <a href="www.instagram.com" class="btn btn--social"><img src="./assets/icons/icon_insta.svg" alt="INSTA"></a>
+                </li>
+                <li>
+                    <a href="gov.in" class="btn btn--social"><img src="./assets/icons/icon_globe.svg" alt="GOV"></a>
+                </li>
+            </ul>
+            <p class="footer--primary__para">
+                Donating blood or platelets can be intimidating and even scary. Time to put those hesitations and fears aside. Learn from Blood Buddy and platelet donors how simple and easy it is to roll up a sleeve and help save lives.
+            </p>
+            <a href="register.html" class="footer--primary__cta btn btn--primary ">Register</a>
+        </footer>
+    </div>
 </body>
-
 </html>
