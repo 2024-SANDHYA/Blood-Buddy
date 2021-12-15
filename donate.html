@@ -14,15 +14,17 @@
 <body>
     <header>
         <nav>
-            <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
-            <div class="header-list">
+            <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
+            <div class="header-list" id="headerl">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="help.html" target="_blank"> Get Help</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                    <li><a href="index.html" target="_blank">Volunteer</a></li>
-                    <li><a href="index.html" target="_blank">About Us</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#vol-sect">Volunteer</a></li>
+                    <li><a href="donate.html" target="_blank">Donate</a></li>
+                    <li><a href="help.html" target="_blank">Get Help</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     </header>
 
@@ -70,6 +72,17 @@
         </div>
     </div>
 
+    <!--JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var headerl = document.getElementById("headerl");
 
+        function showMenu() {
+            headerl.style.right = "0";
+        }
+
+        function hideMenu() {
+            headerl.style.right = "-210px";
+        }
+    </script>
 
 </body>
