@@ -10,4 +10,4 @@
 
 1. Kind of change this PR introduce :
 2. Issue it resolves : 
-3. Screenshots & GitHub Page Link : 
+3. GitHub Page Link : 
