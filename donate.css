@@ -79,6 +79,7 @@ main {
     background: #f6f6f6;
     height: 70%;
     padding: 15px;
+    margin-top: -13vh;
 }
 
 .box {
@@ -342,6 +343,9 @@ nav .fa {
 
     .header-list ul {
         padding: 30px;
+    }
+    main{
+        margin-top: 0vh;
     }
 
 }
