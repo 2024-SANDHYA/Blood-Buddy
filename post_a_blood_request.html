@@ -27,23 +27,17 @@
         </nav>
     </header>
 
-
-
     <main>
         <div class="container">
+            <div class="img"></div>
             <div class="get_blood">
                 <h2>Post A Blood Request </h2>
                 <form>
-                    <label for="name">Name:</label>
-                    <input type="text" class="field">
-                    <label for="name">Email:</label>
-                    <input type="text" class="field">
-                    <label for="name">Contact No:</label>
-                    <input type="number" class="field">
-                    <label for="name">Address:</label>
-                    <textarea class="field"></textarea>
-                    <label for="name">Blood Groups:</label>
-                    <select name="blood_groups" id="blood_groups">
+                    <input type="text" class="field" placeholder="Name">
+                    <input type="email" class="field" placeholder="Email">
+                    <input type="text" class="field" placeholder="Contact No.">
+                    <textarea class="field" placeholder="Address"></textarea>
+                    <select name="blood_groups" class="blood_groups field">
                         <option value="" disabled selected>Blood Groups</option>
                         <option value="A+">A+</option>
                         <option value="A-">A-</option>
@@ -54,12 +48,11 @@
                         <option value="O+">O+</option>
                         <option value="O-">O-</option>
                     </select>
-                    <button class="btn">Post</button>
+                    <button class="btn field">Post</button>
                 </form>
             </div>
         </div>
     </main>
-
 
     <div class="sec">
         <div class="footer-head">
