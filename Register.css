@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Courier+Prime&family=Nanum+Pen+Script&family=Neucha&display=swap");
 
 body{
     background: url('./Images/ug.png');
@@ -29,20 +30,17 @@ li a{
     text-transform: uppercase;
     color: black;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     letter-spacing: 2px;
     font-weight: 600;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin: 15px;
+    padding: 10px;
     transition: all ease 0.5s;
 }
 
 li{
     float: right;
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
-    padding-right: 40px;
+    list-style: none;   
     font-size: 24px;
 }
 
@@ -59,17 +57,18 @@ header ul li a:hover{
 }
 
 .inner{
-    height: 85%;
+   
+    height: 75%;
     width: 70%;
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 50%;
     bottom: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 68px -6px rgba(38, 38, 38);
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .photo{
@@ -88,6 +87,7 @@ header ul li a:hover{
     width: 50%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
+  
 }
 
 .user-form h1{
@@ -163,6 +163,7 @@ span:nth-child(3)
     background: linear-gradient(45deg,rgba(222,197,51,1)24%,rgba(255,107,0,1)100%);
 }
 
+
 @media(max-width:700px){
     .photo{
         display: none;
@@ -184,6 +185,7 @@ span:nth-child(3)
         padding:5px;
     }
 }
+
 
 @media screen and (max-width:990px) and (min-width:665px){
     .action-btn{

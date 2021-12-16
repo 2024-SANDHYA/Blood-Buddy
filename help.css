@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Courier+Prime&family=Nanum+Pen+Script&family=Neucha&display=swap");
 
 
 * {
@@ -33,27 +34,29 @@ header{
 
 }
 
+
 .header-list ul li a {
+   
     text-decoration: none;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     letter-spacing: 2px;
     font-weight: 600;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     transition: all ease 0.5s;
+margin-top: -10px;
 }
 
 .header-list ul li {
-    float: right;
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
-    padding-right: 40px;
+float: right;
+padding-left: 30px;
+padding-top: 30px;
+list-style: none;
 }
 
 header ul li a:hover{
@@ -69,7 +72,7 @@ header ul li a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    padding-top: 20%;
+    padding-top: 13%;
 }
 
 .container:after{
@@ -190,6 +193,7 @@ main{
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .footer-head {

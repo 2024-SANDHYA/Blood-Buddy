@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Courier+Prime&family=Nanum+Pen+Script&family=Neucha&display=swap");
 
 
 * {
@@ -32,18 +33,20 @@ header {
 }
 
 .header-list ul li a {
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding: 20px;
-    transition: all ease 0.5s;
+   
+        text-decoration: none;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-size: 20px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        letter-spacing: 2px;
+        font-weight: 600;
+        margin: 10px;
+        padding: 10px;
+        transition: all ease 0.5s;
+    margin-top: -10px;
 }
 
 .header-list ul li {
@@ -51,7 +54,6 @@ header {
     padding-left: 30px;
     padding-top: 30px;
     list-style: none;
-    padding-right: 40px;
 }
 
 .des{
@@ -89,6 +91,7 @@ main {
     border-top-right-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    width: 61vh;
 }
 
 .box .des li {
@@ -98,7 +101,7 @@ main {
     background: #fff;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 
@@ -150,7 +153,9 @@ main {
     width: 15vh;
     letter-spacing: 4px;
     height: 8vh;
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: 10px;
+
 }
 
 .text-box {
@@ -181,6 +186,7 @@ main {
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .footer-head {
@@ -213,6 +219,7 @@ main {
     display: flex;
     align-items: center;
 }
+
 
 .sci li {
     float: right;
@@ -288,3 +295,6 @@ main {
         padding-right: 2px;
     }
 }
+
+
+    
