@@ -130,17 +130,6 @@ input{
     margin: 5px;
 }
 
-span:nth-child(2)
-{
-    background-color: #fffc00;
-}
-
-
-span:nth-child(3)
-{
-    background-color: #fffc00;
-}
-
 .action-btn{
     width: 100%;
     display: flex;
