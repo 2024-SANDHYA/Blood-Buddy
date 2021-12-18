@@ -1,0 +1,25 @@
+.bg\:image {
+  background-color: #053b61;
+  background-blend-mode: soft-light;
+  color: var(--clr-light-400);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg\:dark {
+  background-color: var(--clr-dark-400);
+  color: var(--clr-light-400);
+}
+
+.bg\:light {
+  background-color: var(--clr-accent1-100);
+  color: var(--clr-dark-400);
+}
+
+.color\:accent-2 {
+  color: var(--clr-accent2-400);
+}
+
+.color\:accent-2--light {
+  color: var(--clr-accent2-200);
+}

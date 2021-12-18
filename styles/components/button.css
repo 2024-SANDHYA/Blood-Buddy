@@ -1,0 +1,76 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+.btn:focus-visible {
+  outline: none;
+}
+
+.btn--primary {
+  letter-spacing: 0.75px;
+  background-color: var(--clr-accent1-400);
+  color: var(--clr-light-400);
+  padding: 0.75rem 2.25rem;
+  transition: 450ms background-color;
+}
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: var(--clr-accent2-400);
+}
+
+.btn--social {
+  transition: transform 250ms;
+  position: relative;
+}
+.btn--social > img {
+  height: var(--fs-600);
+  object-fit: contain;
+  position: relative;
+}
+.btn--social:hover {
+  transform: scale(1.2);
+}
+.btn--social:focus-visible::before {
+  content: "";
+  position: absolute;
+  height: 200%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--clr-accent2-400);
+}
+.btn--arrow {
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+.btn--arrow svg {
+  width: var(--fs-1000);
+  aspect-ratio: 1;
+  fill: var(--clr-light-400);
+  transition: fill 250ms;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .btn--arrow svg {
+    width: calc(var(--fs-1000) * 1.5);
+  }
+}
+.btn--arrow:hover svg {
+  fill: rgba(255, 255, 255, 0.65);
+}
+.btn--arrow:focus-visible::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--clr-accent2-400);
+}

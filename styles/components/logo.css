@@ -1,0 +1,21 @@
+.logo {
+  width: clamp(6.5rem, 9vw, 10rem);
+  position: relative;
+}
+.logo__link {
+  display: inline-block;
+  outline: none;
+  position: relative;
+}
+.logo__link:focus-visible::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  padding-block: 20%;
+  padding-inline: 5%;
+  bottom: -20%;
+  right: -5%;
+  background-color: var(--clr-accent2-400);
+}

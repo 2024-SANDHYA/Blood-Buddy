@@ -1,0 +1,9 @@
+.list--social {
+  gap: 1.75rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .list--social {
+    justify-content: space-between;
+  }
+}
