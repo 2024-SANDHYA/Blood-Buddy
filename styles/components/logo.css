@@ -1,5 +1,6 @@
 .logo {
-  width: clamp(6.5rem, 9vw, 10rem);
+  /* width: clamp(6.5rem, 9vw, 10rem); */
+  width: 6.5rem;
   position: relative;
 }
 .logo__link {
