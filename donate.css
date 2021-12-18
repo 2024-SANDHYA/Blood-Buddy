@@ -82,7 +82,7 @@ main {
 .box h2 {
     color: #fff;
     background: #DC143C;
-    padding: 10px 20px;
+    padding: 14px 19px;
     font-size: 20px;
     font-weight: 700;
     border-top-left-radius: 10px;
@@ -94,7 +94,7 @@ main {
 .box .des li {
     list-style: none;
     padding: 10px;
-    width: 100%;
+    width: 96%;
     background: #fff;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s;
@@ -142,7 +142,7 @@ main {
     text-decoration: none;
     color: black;
     border: 1px solid #fff;
-    padding: 12px 30px;
+    padding: 12px 29px;
     font-size: 20px;
     background: transparent;
     position: relative;
