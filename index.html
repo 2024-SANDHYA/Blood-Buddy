@@ -12,6 +12,7 @@
 
     <!-- scripts -->
     <script src="./scripts/supe-slider.js" defer></script>
+    <script src="./scripts/navigation.js" defer></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,10 +23,28 @@
     <!-- Hero -->
     <div class="bg:image home__hero container">
         <!-- Primary Header -->
-        <header class="header--primary">
+        <header class="header--primary layout:flex">
             <a href="index.html" class="logo__link">
                 <img src="./assets/logo.svg" class="logo" alt="Logo">
             </a>
+            <button id="btn-open-nav" class="open-nav">&#9776;</button>
+            <nav class="nav" id="nav">
+                <button id="btn-close-nav" class="close-nav">&times;</button>
+                <ul class="nav-list layout:block-flex--md">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link current-page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="help.html" class="nav-link">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <!-- Intro -->
         <section class="home__intro layout:block-grid--sm text-align:center@z-only">
