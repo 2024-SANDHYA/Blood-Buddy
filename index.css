@@ -426,10 +426,11 @@ footer {
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
+    height: 200%;
     width: 100%;
-    padding-top: 40px;
+    /*padding-top: none;*/
     color: #fff;
+    padding: 5px 0px 5px 0px;
 }
 
 .footer-content {
@@ -445,14 +446,17 @@ footer {
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(207, 205, 205);
 }
 
 .footer-content p {
     max-width: fit-content;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 22px;
-    color: #cacdd2;
+    margin: 0px 0px 0px 0px;
+    line-height: normal;
+    font-size: 20px;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom {
@@ -504,13 +508,14 @@ footer {
     color: #27bcda;
 }
 
-.footer-content {
+
+/*.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
+}*/
 
 .sci li {
     float: right;
