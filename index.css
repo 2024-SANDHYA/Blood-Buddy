@@ -4,12 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 * {
     margin: 0px;
     padding: 0px;
 }
-
 
 header {
     height: 100vh;
@@ -20,8 +18,6 @@ header {
     position: relative;
     background-attachment: fixed;
 }
-
-
 
 nav {
     display: flex;
@@ -45,7 +41,6 @@ nav img {
     display: inline-block;
     padding: 8px 15px;
     position: relative;
-
 }
 
 .header-list ul li a {
@@ -79,7 +74,6 @@ nav img {
     text-align: center;
     font-family: 'Neuton', serif;
     line-height: 50px;
-
 }
 
 .text-box h1 {
@@ -125,7 +119,6 @@ nav .fa {
         font-size: 30px;
         padding-top: 32px;
     }
-
     nav img {
         width: 140px;
         padding-left: 20px;
@@ -133,11 +126,9 @@ nav .fa {
         padding-bottom: 200px;
         margin-bottom: 14px;
     }
-
     .header-list ul li {
         display: block;
     }
-
     .header-list {
         position: absolute;
         background: #FA8072;
@@ -149,7 +140,6 @@ nav .fa {
         z-index: 2;
         transition: 1s;
     }
-
     nav .fa {
         display: block;
         color: #fff;
@@ -158,12 +148,11 @@ nav .fa {
         cursor: pointer;
         padding-bottom: 20px;
     }
-
     .header-list ul {
         padding: 30px;
     }
-
 }
+
 
 /*ABOUT*/
 
@@ -196,7 +185,6 @@ p {
     position: relative;
     background: white;
     margin: 2%;
-
 }
 
 .about-col:hover {
@@ -207,12 +195,10 @@ p {
     width: 50%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-
 }
 
 .about h3 {
     font-family: 'Alegreya Sans SC', sans-serif;
-
 }
 
 .about-col p {
@@ -224,7 +210,6 @@ p {
     z-index: -1;
     font-family: 'NTR', sans-serif;
     font-size: 1.2rem;
-
 }
 
 .heading {
@@ -243,13 +228,11 @@ main {
         width: 95%;
         margin: auto;
     }
-
     .about p {
         padding: 0px;
         margin: 2px;
         font-size: 16px;
     }
-
     .about-col {
         width: 27%;
     }
@@ -260,24 +243,20 @@ main {
         width: 95%;
         margin: auto;
     }
-
     .about p {
         padding: 0px;
         margin: 1.4px;
         font-size: 15px;
         letter-spacing: -0.01rem;
     }
-
     .about-col {
         width: 28%;
         border-radius: 4px;
         margin: 1.3%;
     }
-
     .about h3 {
         font-size: 17px;
     }
-
     .about h1 {
         font-size: 27px;
     }
@@ -289,9 +268,12 @@ main {
     }
 }
 
+
 /* ABOUT ENDS */
 
+
 /*Volunteer*/
+
 .volunteer {
     background: #F08080;
     font-family: sans-serif;
@@ -325,7 +307,6 @@ main {
     justify-content: left;
 }
 
-
 .vol:nth-child(1) {
     background: rgba(255, 255, 255, .6);
 }
@@ -353,7 +334,6 @@ main {
 
 .vol span:nth-child(4) {
     width: 70px;
-
 }
 
 .vol:hover {
@@ -362,7 +342,6 @@ main {
 }
 
 @media screen and (max-width: 510px) {
-
     .volunt {
         /* position: relative; */
         width: 400px;
@@ -370,17 +349,14 @@ main {
         padding: 10px;
         border-radius: 5px;
     }
-
     .vol {
         padding: 7px;
         margin: 5px 0;
         font-size: 16px;
     }
-
     .line {
         display: none;
     }
-
     .content .volunteer {
         font-size: 16px;
     }
@@ -390,7 +366,6 @@ main {
     .content .volunteer {
         font-size: 16px;
     }
-
     .line {
         display: none;
     }
@@ -401,13 +376,11 @@ main {
         width: 300px;
         padding: 10px auto;
     }
-
     .vol {
         padding: 5px;
         margin: 4px 0;
         font-size: 14px;
     }
-
     .content {
         font-size: 15px;
     }
@@ -418,13 +391,11 @@ main {
         width: 270px;
         padding: 10px auto;
     }
-
     .vol {
         padding: 4px;
         margin: 4px 0;
         font-size: 13.5px;
     }
-
     .title-head {
         font-size: 28px;
     }
@@ -448,37 +419,97 @@ main {
 
 
 /*Footer*/
-.sec {
-    background: black;
-    margin-top: 2%;
-    color: white;
-    height: 200px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-}
 
-.footer-head {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 4vh;
-}
-
-.bout {
+footer {
     position: relative;
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: center;
-    padding-top: 1vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
 }
 
-.head {
-    padding-left: 20px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
+.footer-content {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: fit-content;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 22px;
+    color: #cacdd2;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .sci li {
@@ -492,6 +523,7 @@ main {
 .socials {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .sci li a {
@@ -504,32 +536,47 @@ main {
 }
 
 .sci li:nth-child(1) a:hover {
-
     color: #3b5998;
     transform: translateY(-20px);
-
 }
 
 .sci li:nth-child(2) a:hover {
-
     color: rgba(188, 42, 141);
     transform: translateY(-20px);
-
 }
 
 .sci li:nth-child(3) a:hover {
-
     color: #F0E68C;
     transform: translateY(-20px);
 }
 
-@media screen and (max-width: 500px) {
-    .head {
-        padding-left: 15px;
-        font-size: 30px;
-        font-weight: 550;
-    }
+.siteFooterBar {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgb(12, 12, 12);
+    height: 20px;
+    color: #9B9B9B;
+    background: #070707;
+}
 
+.content {
+    display: contents;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font: 25px Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    width: 250px;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
     .sci li {
         padding-right: 15px;
         font-size: 25px;
@@ -537,22 +584,8 @@ main {
 }
 
 @media screen and (max-width: 360px) {
-    .head {
-        padding-left: 7px;
-        font-size: 25px;
-    }
-
     .sci li {
         padding-right: 7px;
         font-size: 20px;
-    }
-
-    .bout p {
-        font-size: 18px;
-    }
-
-    .bout {
-        padding-left: 2px;
-        padding-right: 2px;
     }
 }
