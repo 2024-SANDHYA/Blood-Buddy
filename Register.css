@@ -147,22 +147,30 @@ input{
     font-weight:700px;
     font-size: medium;
     margin: 0 10px;
-    background: linear-gradient(45deg,yellow 24%,orange 100%);
+    background: none;
+    border: 2px solid white;
+    color: white;
 }
 
 .primary{
     font-size: medium;
     font-family:'Alegreya Sans SC', sans-serif;
-    border: none;
-    background: linear-gradient(45deg,yellow 24%,orange 100%);
+    background: none;
+    border: 2px solid white;
+    color: white;
+
 }
 .primary:hover{
-   background: linear-gradient(45deg, #80F0F0, #1B1FE4);
+    background: linear-gradient(45deg, yellow 24%, orange 100%);
+    border: none;
+    color: black;
+
   
 }
 .btn:hover{
-    background: linear-gradient(45deg, #80F0F0, #1B1FE4);
-   
+    background: linear-gradient(45deg, yellow 24%, orange 100%);
+    border: none;
+    color: black;  
 }
 
 @media(max-width:700px){
