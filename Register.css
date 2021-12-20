@@ -168,12 +168,12 @@ span:nth-child(3)
     background: linear-gradient(45deg,yellow 24%,orange 100%);
 }
 .primary:hover{
-   background: linear-gradient(45deg, red, red);
-   color:white;
+   background: linear-gradient(45deg, #80F0F0, #1B1FE4);
+  
 }
 .btn:hover{
-   background: linear-gradient(45deg, red, red);
-   color:white;
+    background: linear-gradient(45deg, #80F0F0, #1B1FE4);
+   
 }
 
 @media(max-width:700px){
