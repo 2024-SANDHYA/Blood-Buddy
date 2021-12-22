@@ -10,32 +10,53 @@
     padding: 0px;
 }
 
+#homevideo{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 header {
+    overflow: hidden;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(14, 23, 61, 0.7), rgb(59, 75, 85)), url(./Images/header.jpg);
-    background-position: center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
 }
 
 
-
-nav {
-    display: flex;
-    padding: 2%, 6%;
-    justify-content: space-between;
+#logo{
+    width: 80%;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Neuton', serif;
+    line-height: 30px;
+}
+#nav {
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Neuton', serif;
+    line-height: 50px;
 }
 
-nav img {
-    width: 200px;
+#nav img {
+    width: 150px;
     padding-left: 20px;
     padding-top: 10px;
+    top: 0%;
 }
 
-.nav .header-list {
+#nav .header-list {
     flex: 1;
     text-align: right;
 }
@@ -49,7 +70,7 @@ nav img {
 }
 
 .header-list ul li a {
-    color: white;
+    color: black;
     font-size: 24px;
     text-decoration: none;
     font-family: 'Fredoka One', cursive;
@@ -70,11 +91,11 @@ nav img {
 }
 
 .text-box {
-    width: 90%;
-    color: #fff;
+    width: 80%;
+    color: black;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 21%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Neuton', serif;
@@ -91,16 +112,18 @@ nav img {
 .text-box p {
     margin: 10px 0 40px;
     font-size: 26px;
-    color: #fff;
+    color: black;
 }
 
 .hero-btn {
+    border-radius: 5px;
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;
     padding: 12px 30px;
-    font-size: 25px;
+    font-size: 35px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -114,26 +137,48 @@ nav img {
     border: 1px solid #CD5C5C;
     background: #CD5C5C;
     transition: 1s;
+    font-weight: 300;
 }
 
-nav .fa {
+#nav .fa {
     display: none;
 }
 
-@media(max-width:700px) {
+@media only screen and (max-width: 800px) {
+    #logo{
+       visibility: collapse;
+    }
+    #homevideo{
+        height: auto;
+        width: 100%;
+    }
+    .text-box{
+        height: auto;
+        width: 50%;
+        left: 50%;
+        top: 62%;
+    }
     .text-box h1 {
-        font-size: 30px;
+        font-size: 200%;
         padding-top: 32px;
     }
-
-    nav img {
-        width: 140px;
-        padding-left: 20px;
-        padding-top: 0px;
-        padding-bottom: 200px;
-        margin-bottom: 14px;
+    .text-box p {
+        font-size: 90%;
     }
-
+    .hero-btn {
+        border-radius: 5px;
+        border: 2px solid black;
+        border-radius: 5px 20px 5px;
+        padding: 12px 30px;
+        font-size: 200%;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        width: 20vh;
+        letter-spacing: 3px;
+        height: 8vh; 
+    }
+    
     .header-list ul li {
         display: block;
     }
@@ -150,9 +195,10 @@ nav .fa {
         transition: 1s;
     }
 
-    nav .fa {
+    #nav .fa {
         display: block;
         color: #fff;
+        float: right;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -449,9 +495,10 @@ main {
 
 /*Footer*/
 .sec {
+    border-top-left-radius: 40px;
     background: black;
     margin-top: 2%;
-    color: white;
+    color: #FFB6C1 ;
     height: 200px;
     padding-bottom: 20px;
     display: flex;
@@ -464,6 +511,11 @@ main {
     padding-top: 4vh;
 }
 
+.bout p{
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
 .bout {
     position: relative;
     padding-right: 20px;
@@ -480,7 +532,9 @@ main {
     display: flex;
     align-items: center;
 }
-
+.head:hover{
+    color: white;
+}
 .sci li {
     float: right;
     text-decoration: none;
@@ -499,14 +553,19 @@ main {
 }
 
 .sci li a:hover {
-    transform: translateY(-20px);
+    transition: 1s;
     box-shadow: inset-1px -1px 2px rgba(0, 0, 0, 0.2), 2px 24px 10px rgba(0, 0, 0, 0.1);
 }
-
+.sci li i{
+     transition: .5s;
+}
+.sci li i:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -20px);
+}
 .sci li:nth-child(1) a:hover {
 
     color: #3b5998;
-    transform: translateY(-20px);
+    transform: translateY(-20%);
 
 }
 
