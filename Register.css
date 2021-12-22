@@ -130,17 +130,6 @@ input{
     margin: 5px;
 }
 
-span:nth-child(2)
-{
-    background-color: #fffc00;
-}
-
-
-span:nth-child(3)
-{
-    background-color: #fffc00;
-}
-
 .action-btn{
     width: 100%;
     display: flex;
@@ -148,19 +137,40 @@ span:nth-child(3)
 }
 
 .btn{
+    font-family:'Alegreya Sans SC', sans-serif;
     border: 1px solid #fff;
     padding: 10px;
     background: transparent;
     border-radius: 20px;
     width: 50%;
     cursor: pointer;
-    font-size: 16px;
+    font-weight:700px;
+    font-size: medium;
     margin: 0 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
 }
 
 .primary{
+    font-size: medium;
+    font-family:'Alegreya Sans SC', sans-serif;
+    background: none;
+    border: 2px solid white;
+    color: white;
+
+}
+.primary:hover{
+    background: linear-gradient(45deg, yellow 24%, orange 100%);
     border: none;
-    background: linear-gradient(45deg,rgba(222,197,51,1)24%,rgba(255,107,0,1)100%);
+    color: black;
+
+  
+}
+.btn:hover{
+    background: linear-gradient(45deg, yellow 24%, orange 100%);
+    border: none;
+    color: black;  
 }
 
 @media(max-width:700px){
@@ -182,6 +192,7 @@ span:nth-child(3)
         width:100%;
         margin:5px;
         padding:5px;
+       
     }
 }
 
