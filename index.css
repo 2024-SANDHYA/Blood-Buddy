@@ -556,7 +556,9 @@ main {
         padding-right: 2px;
     }
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #myBtn {
        display: none; 
        position: fixed; 
@@ -572,3 +574,6 @@ main {
        border-radius: 50px; 
        font-size: 18px; 
      }
+#myBtn:hover{
+    background-color: black
+}
