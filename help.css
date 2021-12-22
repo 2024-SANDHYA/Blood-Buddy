@@ -15,22 +15,32 @@
 }
 
 header{
-    background-color: white;
     color: white;
-    height: 18%;
-    width: 100%;
+    width: 100vw;
 	z-index: 10;
-	position: fixed;
+	position: sticky;
     font-weight: 100;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo{
     font-size: 10px;
-    float: left;
     padding-left: 30px;
     padding-top: 0px;
-    padding-bottom: 12%;
+    padding-bottom: 5px;
+    width: fit-content;
+}
 
+.header-list ul{
+    display: flex;
+    gap:40px;
+    padding-bottom: 50px;
+    padding-right: 45px;
 }
 
 .header-list ul li a {
@@ -49,11 +59,7 @@ header{
 }
 
 .header-list ul li {
-    float: right;
-    padding-left: 30px;
-    padding-top: 30px;
     list-style: none;
-    padding-right: 40px;
 }
 
 header ul li a:hover{
@@ -63,13 +69,14 @@ header ul li a:hover{
 
 
 .container{
+    margin-top: 15px;
+    margin-bottom: 15px;
 	position: relative;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    padding-top: 20%;
 }
 
 .container:after{
@@ -93,8 +100,6 @@ header ul li a:hover{
 	text-align: center;
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    padding-right: 10px;
-
 }
 
 .left{
@@ -104,9 +109,12 @@ header ul li a:hover{
 }
 
 .right{
-	padding: 25px 40px;
+	padding: 25px 30px;
 }
 
+.right >*{
+    box-sizing: border-box;
+}
 h2{
 	position: relative;
 	padding: 0 0 10px;
@@ -143,6 +151,7 @@ h2:after{
 
 textarea{
 	min-height: 150px;
+    resize: none;
 }
 
 .btn{
@@ -167,12 +176,50 @@ textarea{
 }
 
 @media screen and (max-width: 880px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .header-logo{
+        padding-left: 15px;
+    }
+    .header-list  ul{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 0px;
+        gap:5px;
+    }
+    .header-list ul li a{
+        font-size: 1rem;
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+
+    .right{
+        padding: 25px 20px;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        width: 75%;
+        min-width: 400px;
+    }
 	.contact-box{
 		grid-template-columns: 1fr;
 	}
 	.left{
 		height: 200px;
 	}
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        width: 100vw;
+        min-width: 300px;
+    }
 }
 
 main{
