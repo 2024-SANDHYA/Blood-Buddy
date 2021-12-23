@@ -9,6 +9,8 @@
     <link rel="stylesheet" href='index.css'>
     <link rel="stylesheet" href='https://fontawesome.com/v4.7.0/icon/bars'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 <title>BLOOD BUDDY</title>
@@ -49,14 +51,14 @@
                 <h1 class="heading">What is this all about ?</h1> <br>
                 <p class="head-des" class="text">We solve the problem of blood emergencies by connecting <span class="one-line"><br></span> blood donors directly with people in blood need. </p>
                 <div class="row">
-                    <div class="about-col">
+                    <div class="about-col" data-aos="fade-left">
                         <div class="image">
                             <img src="./Images/drop.png">
                         </div>
                         <h3>What we do ?</h3>
                         <p>We connect blood donors with recipients, without any intermediary such as blood banks, for an efficient and seamless process.</p>
                     </div>
-                    <div class="about-col">
+                    <div class="about-col"data-aos="fade-up">
                         <div class="image">
                             <img src="./Images/innovation.png">
                         </div>
@@ -64,28 +66,28 @@
                         <p>Bloood Buddy is an innovative approach to address global heath.We provide <span>immediate
                                 access</span> to blood donors.</p>
                     </div>
-                    <div class="about-col">
+                    <div class="about-col" data-aos="fade-right">
                         <div class="image">
                             <img src="./Images/netwotk.png">
                         </div>
                         <h3>Network</h3>
                         <p>Blood Buddy is one of several community organizations working together as a network that responds to emergencies in an efficient manner.</p>
                     </div>
-                    <div class="about-col">
+                    <div class="about-col" data-aos="fade-down-left">
                         <div class="image">
                             <img src="./Images/noti.png">
                         </div>
                         <h3>Get notified</h3>
                         <p>Blood Buddy Connect works with network partners to connect blood donors and recipients through an automated SMS service and a mobile app.</p>
                     </div>
-                    <div class="about-col">
+                    <div class="about-col" data-aos="fade-down-up">
                         <div class="image">
                             <img src="./Images/cost.png">
                         </div>
                         <h3>Totally Free</h3>
                         <p>Blood Budyy's ultimate goal is to provide an easy -to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally <span>Free of cost.</span></p>
                     </div>
-                    <div class="about-col">
+                    <div class="about-col" data-aos="fade-down-right">
                         <div class="image">
                             <img src="./Images/save.png">
                         </div>
@@ -225,6 +227,14 @@
             headerl.style.right = "-210px";
         }
     </script>
+    <!--Animation on about us section-->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init({
+            duration:2000
+         });
+       </script>
+
 </body>
 
 </html>

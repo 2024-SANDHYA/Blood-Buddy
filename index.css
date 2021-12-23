@@ -233,10 +233,17 @@ p {
     padding: 10px;
     line-height: 20px;
 }
+.about .row{
+    display:grid; 
+    grid-template-columns: 27% 27% 27%; 
+    grid-template-rows: 50% 50%; 
+    grid-column-gap:2%; 
+    padding-left:12%;
+}
 
 .about-col {
     transition: transform 1s;
-    width: 25%;
+    width:100%;
     display: inline-block;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px;
@@ -479,7 +486,7 @@ main {
 
 .title-head {
     font-family: 'Alegreya Sans SC', sans-serif;
-=======
+=======    
         @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
