@@ -80,7 +80,7 @@ header ul li a:hover{
 	left: 0;
 	top: 0;
 	background: url("img/bg.jpg") no-repeat center;
-	background-size: cover;
+	background-size: contain;
 	filter: blur(50px);
 	z-index: -1;
 }

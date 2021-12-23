@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #homevideo{
     height: auto;
     width: 100%;
