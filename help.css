@@ -14,52 +14,99 @@
     padding: 0px;
 }
 
-header{
+/* Header Starts */
+
+header {
     background-color: white;
     color: white;
     height: 18%;
     width: 100%;
-	z-index: 10;
-	position: fixed;
+    z-index: 10;
+    position: fixed;
     font-weight: 100;
 }
 
-.header-logo{
-    font-size: 10px;
-    float: left;
-    padding-left: 30px;
-    padding-top: 0px;
-    padding-bottom: 12%;
+nav {
+    display: flex;
+    padding: 2%, 6%;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 140px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav .header-list {
+    flex: 1;
+    text-align: right;
+}
+
+.header-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
 
 }
 
 .header-list ul li a {
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
     font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
     margin-bottom: 10px;
     padding: 20px;
-    transition: all ease 0.5s;
 }
 
-.header-list ul li {
-    float: right;
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
-    padding-right: 40px;
-}
-
-header ul li a:hover{
-    background-color:rgba(220,20,60);
+.header-list ul li a:hover {
+    background-color: rgba(220, 20, 60);
     color: white;
 }
+
+
+nav .fa {
+    display: none;
+}
+
+@media(max-width:768px) {
+
+    nav img {
+        width: 95px;
+    }
+   
+    .header-list ul li {
+        display: block;
+    }
+
+    .header-list {
+        position: absolute;
+        background: #FA8072;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -210px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Header Ends */
 
 
 .container{
