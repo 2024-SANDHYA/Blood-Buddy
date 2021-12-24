@@ -177,10 +177,6 @@ textarea{
 
 @media screen and (max-width: 880px){
 
-    body{
-        overflow-x: hidden;
-    }
-
     .header-logo{
         padding-left: 15px;
     }
