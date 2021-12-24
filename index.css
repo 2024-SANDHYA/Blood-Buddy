@@ -237,7 +237,8 @@ p {
     display:grid; 
     grid-template-columns: 27% 27% 27%; 
     grid-template-rows: 50% 50%; 
-    grid-column-gap:2%; 
+    grid-column-gap:6%;
+    grid-row-gap:5%; 
     padding-left:12%;
 }
 
