@@ -235,11 +235,11 @@ p {
 }
 .about .row{
     display:grid; 
-    grid-template-columns: 27% 27% 27%; 
+    grid-template-columns: 28% 28% 28%; 
     grid-template-rows: 50% 50%; 
     grid-column-gap:6%;
     grid-row-gap:5%; 
-    padding-left:12%;
+    padding-left:5%;
 }
 
 .about-col {
