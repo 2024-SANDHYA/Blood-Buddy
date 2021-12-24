@@ -29,15 +29,28 @@ header {
 
 
 #logo{
-    width: 80%;
     position: absolute;
-    top: 12%;
-    left: 8%;
+    top: 9%;
+    left: 5%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Neuton', serif;
     line-height: 30px;
+    margin-bottom: 10px;
 }
+
+
+#logo > a > img {
+    width: 70%;
+}
+
+#logo > a > img:hover{
+    background-color: lightskyblue;
+    padding-bottom: 10px;
+    border-radius: 40%;
+    box-shadow: darkred 5px 5px;
+}
+
 #nav {
     width: 90%;
     color: black;
