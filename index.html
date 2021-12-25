@@ -17,24 +17,25 @@
     <!--Scroll to top button-->
     <button onclick="topFunction()" id="myBtn" class="fas fa-arrow-up"></button>
     <!-- Home Page -->
+    <div id="logo"> <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
+    </div>
+    <div id="nav">
+        <div class="header-list" id="headerl">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#vol-sect">Volunteer</a></li>
+                <li><a href="donate.html" target="_blank">Donate</a></li>
+                <li><a href="help.html" target="_blank">Get Help</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
     <header>
         <video autoplay muted loop plays-inline id="homevideo">
             <source src="./video/homevideo1.mp4" type="video/mp4">
         </video>
-        <div id="logo"> <a href="index.html"><img src="./Images/bb_logo(white).png"></a>
-        </div>
-        <div id="nav">
-            <div class="header-list" id="headerl">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#vol-sect">Volunteer</a></li>
-                    <li><a href="donate.html" target="_blank">Donate</a></li>
-                    <li><a href="help.html" target="_blank">Get Help</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </div>
+       
         <div class="text-box">
             <h1> Start </h1>
             <h1>Saving Lives </h1>
@@ -226,7 +227,7 @@
         }
 
         function hideMenu() {
-            headerl.style.right = "-210px";
+            headerl.style.right = "-250px";
         }
     </script>
 </body>
