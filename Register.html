@@ -10,19 +10,21 @@
 </head>
 <title>Start Saving Lives </title>
 <body>
-<header>
-    <nav>
-    <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
-    <div class="header-list">
-        <ul>
-            <li><a href="index.html">Get Help</li></a>
-            <li><a href="index.html">Donate</li></a>
-            <li><a href="index.html">Volunteer</li></a>
-            <li><a href="index.html">About Us</a></li>
-            </ul>
-    </div>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <a href="index.html"><img src="./Images/bb_logo(black).png"></a>
+            <div class="header-list" id="headerl">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="help.html" target="_blank"> Get Help</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="index.html" target="_blank">Volunteer</a></li>
+                    <li><a href="index.html" target="_blank">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
 
 <div class="inner">
     <div class="photo">
@@ -50,5 +52,16 @@
     </div>
 </div>
 <script src="./Register.js"></script>
+<script>
+    var headerl = document.getElementById("headerl");
+
+    function showMenu() {
+        headerl.style.right = "0";
+    }
+
+    function hideMenu() {
+        headerl.style.right = "-210px";
+    }
+</script>
 </body>
 </html>
