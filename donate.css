@@ -51,15 +51,18 @@ nav img {
 }
 
 .header-list ul li a {
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-weight: 600;
     margin-bottom: 10px;
     padding: 20px;
+    transition: all ease 0.5s;
 }
 
 .header-list ul li a:hover {
@@ -71,7 +74,7 @@ nav .fa {
     display: none;
 }
 
-@media(max-width:768px) {
+@media(max-width:920px) {
 
     nav img {
         width: 95px;
@@ -93,6 +96,11 @@ nav .fa {
         transition: 1s;
     }
 
+    .header-list ul li a:hover {
+        background-color: transparent;
+        color: black;
+    }
+
     nav .fa {
         display: block;
         color: black;
@@ -101,11 +109,6 @@ nav .fa {
         cursor: pointer;
         padding-bottom: 20px;
     }
-
-    .box {
-        padding-top: 40%;
-    }
-
 }
 
 /* Header CSS Ends */
@@ -147,6 +150,7 @@ main {
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s;
     font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
 }
 
 
@@ -218,6 +222,12 @@ main {
     width: 88%;
 }
 
+
+@media(max-width:768px) {
+    .box {
+        padding-top: 35%;
+    }
+}
 
 
 /*Footer*/

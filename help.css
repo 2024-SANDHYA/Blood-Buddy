@@ -52,15 +52,18 @@ nav img {
 }
 
 .header-list ul li a {
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-weight: 600;
     margin-bottom: 10px;
     padding: 20px;
+    transition: all ease 0.5s;
 }
 
 .header-list ul li a:hover {
@@ -93,6 +96,11 @@ nav .fa {
         text-align: left;
         z-index: 2;
         transition: 1s;
+    }
+
+    .header-list ul li a:hover {
+        background-color: transparent;
+        color: black;
     }
 
     nav .fa {
@@ -218,6 +226,7 @@ textarea{
 	}
 	.left{
 		height: 200px;
+        padding-top: 20%;
 	}
 }
 

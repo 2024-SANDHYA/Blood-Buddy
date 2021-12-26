@@ -48,16 +48,19 @@ nav img {
 
 }
 
-.header-list ul li a {
+li a {
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-weight: 600;
     margin-bottom: 10px;
     padding: 20px;
+    transition: all ease 0.5s;
 }
 
 .header-list ul li a:hover {
