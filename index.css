@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 * {
     margin: 0px;
@@ -231,6 +233,100 @@ p {
     font-size: 36px;
     font-weight: 600;
     font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#tipsheading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+     font-family: 'Ubuntu', sans-serif
+
+
+}
+.container{
+
+    margin: 30px auto 100px; 
+    position: relative;
+    text-align: center;
+   /*  display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    width: 1500px;
+    height: 400px;
+    /* border-top: 10px solid blue; */
+    overflow: hidden;
+    cursor: grab;
+    /* border: 2px solid red; */
+
+
+}
+
+.cards{
+
+        display: inline-grid;
+        position: absolute;
+     
+        
+/* border: 2px solid green; */
+    grid-template-columns: repeat(8 , 350px);
+    grid-gap: 5px;
+
+    /* border: 9px solid green; */
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* border-bottom: 10px solid red; */
+}
+
+.appoint{
+
+    width: 90px;
+}
+
+#tipsheading
+{
+     color: #B91646;
+}
+
+
+.card{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    height: 380px;
+     /* padding: 10px; */ */
+    overflow: hidden;
+
+    
+    border-radius: 1rem;
+    background-color: #B91646;
+    font-family: 'Poppins', sans-serif;
+
+  
+
+}
+/* 
+.img{
+
+  
+  
+    max-width: 100%;
+    border-radius:1rem;
+   
+    /* border-top-left-radius: ; */
+   
+ 
+.card h3{
+    color: #FBF3E4;
+    font-size: 20px;
+   
+}
+.card p{
+    font-size: 16px;
+    color: #FBF3E4;
 }
 
 main {
@@ -528,6 +624,14 @@ main {
         padding-left: 15px;
         font-size: 30px;
         font-weight: 550;
+    }
+    .container
+    {
+           width:90%;
+    }
+
+    .card{
+        width: 200px;
     }
 
     .sci li {
