@@ -22,6 +22,10 @@ header{
 
 }
 
+.header-logo > img {
+    width: 70%;
+}
+
 li a{
     text-decoration: none;
     display: block;

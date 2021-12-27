@@ -44,12 +44,7 @@ header {
     width: 70%;
 }
 
-#logo > a > img:hover{
-    background-color: lightskyblue;
-    padding-bottom: 10px;
-    border-radius: 40%;
-    box-shadow: darkred 5px 5px;
-}
+
 
 #nav {
     width: 90%;
