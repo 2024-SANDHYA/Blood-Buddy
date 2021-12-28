@@ -7,7 +7,7 @@ body{
 header{
     background-color: white;
     color: white;
-    height: 18%;
+    height: 5%;
     width: 100%;
 	z-index: 10;
 	position: fixed;
@@ -26,34 +26,42 @@ header{
     width: 70%;
 }
 
-li a{
-    text-decoration: none;
+.header-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+ }
+ 
+ .header-list ul li a {
     display: block;
-    text-decoration: none;
-    text-transform: uppercase;
     color: black;
-    font-size: 20px;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
     font-weight: 600;
-    margin-bottom: 10px;
-    padding: 20px;
-    transition: all ease 0.5s;
-}
-
-li{
-    float: right;
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
-    padding-right: 40px;
-    font-size: 24px;
-}
-
-header ul li a:hover{
-    background-color:rgba(220,20,60);
-    color: white;
-}
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ 
+ .header-list ul li {
+     float: right;
+ }
+ 
+ .header-list ul li::after {
+     content: '';
+     height: 2px;
+     background:red;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+     width: 0%;
+ }
+ 
+ .header-list ul li:hover::after {
+     width: 100%;
+ }
 
 *{
     margin: 0;
