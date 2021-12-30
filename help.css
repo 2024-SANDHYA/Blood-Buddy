@@ -33,6 +33,10 @@ header{
 
 }
 
+.header-logo > img {
+    width: 70%;
+}
+
 .header-list ul li a {
     text-decoration: none;
     display: block;
