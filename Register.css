@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 
 body{
-    background: url('./Images/ug.png');
+    background: url('../Images/ug.png');
 }
 
 header{
     background-color: white;
     color: white;
-    height: 18%;
+    height: 15%;
     width: 100%;
 	z-index: 10;
 	position: fixed;
@@ -18,12 +18,7 @@ header{
     font-size: 10px;
     float: left;
     padding-left: 30px;
-    padding-top: 0px;
-
-}
-
-.header-logo > img {
-    width: 70%;
+    padding-top: 0px
 }
 
 li a{
@@ -63,35 +58,39 @@ header ul li a:hover{
 }
 
 .inner{
-    height: 85%;
+    height: 100%;
     width: 70%;
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     bottom: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .photo{
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 
 .photo img{
     width: 110%;
     height: 100%;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .user-form{
     background: #F08080;
-    padding: 40px;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 20px 20px 0px;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
 }
 
 .user-form h1{
@@ -107,6 +106,7 @@ header ul li a:hover{
     position: absolute;
     margin: 25px 10px;
     color:#F08080 ;
+    align-items: center;
 }
 
 input{
@@ -169,12 +169,12 @@ input{
     border: none;
     color: black;
 
-  
+
 }
 .btn:hover{
     background: linear-gradient(45deg, yellow 24%, orange 100%);
     border: none;
-    color: black;  
+    color: black;
 }
 
 @media(max-width:700px){
@@ -196,7 +196,7 @@ input{
         width:100%;
         margin:5px;
         padding:5px;
-       
+
     }
 }
 
@@ -212,4 +212,19 @@ input{
         margin:5px;
         padding:5px;
     }
+}
+.hero-btn {
+
+    display: inline-block;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;
+    padding: 12px 30px;
+    font-size: 20px;
+    background: transparent;
+    /* position: relative; */
+    margin-left: 100px;
+    margin-top: 60px;
+    letter-spacing: 3px;
+    font-family: 'Patrick Hand SC', cursive;
 }

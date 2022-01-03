@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='Register.css'>
+    <link rel="stylesheet" href='./Register.css'>
     <link rel="icon" href='./Images/bb_logo(black).png' type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -12,7 +12,8 @@
 <body>
 <header>
     <nav>
-    <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
+    <div class="header-logo"><a href="./index.html"><img src="./Images/bb_logo(black).png"></div></a>
+    <!-- <div class="header-logo"> <img href="index.html" src="../Images/bb_logo(white).png"> -->
     <div class="header-list">
         <ul>
             <li><a href="index.html">Get Help</li></a>
@@ -24,31 +25,18 @@
     </nav>
 </header>
 
-<div class="inner">
+<div class="inner" >
     <div class="photo">
         <img src="./Images/regphoto.png">
     </div>
-    <div class="user-form">
+    <div class="user-form" >
         <h1>Start Saving Lives</h1>
-        <form>
-            <i class="fas fa-user icon"></i>
-            <input type="text" placeholder="Name">
-            <br>
-            <i class="fas fa-envelope-square"></i>
-            <input type="email" placeholder="E-mail">
-            <br>
-            <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password" id="password_data">
-            <div class="safety" style="font-family: sans-serif; font-size: 20px;">
-                Enter Password
-            </div>
-            <div class="action-btn">
-                <button class="btn primary">Create Account</button>
-                <button class="btn">Skip</button>
-            </div>
-        </form>
+        <a class="hero-btn btn primary" style="text-align:center;" href="./Reg_volunteer.html">Register As Volunteer</a>
+        <br>
+        <br>
+        <a class="hero-btn btn primary" style="text-align:center;" href="./Reg_askhelp.html">Ask Help</a>
     </div>
 </div>
-<script src="./Register.js"></script>
+<script src="./Register.js" ></script>
 </body>
 </html>
