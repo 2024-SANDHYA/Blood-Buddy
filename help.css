@@ -343,7 +343,7 @@ main{
 .footer-content p {
     max-width: fit-content;
     margin: 0px 0px 0px 0px;
-    margin-top: -10px;
+    margin-top: 5px;
     margin-bottom: 20px;
     line-height: 28px;
     font-size: 20px;
