@@ -33,6 +33,10 @@ header{
 
 }
 
+.header-logo > img {
+    width: 70%;
+}
+
 .header-list ul li a {
     text-decoration: none;
     display: block;
@@ -184,9 +188,10 @@ main{
 
 /*Footer*/
 .sec {
+    border-top-left-radius: 40px;
     background: black;
     margin-top: 2%;
-    color: white;
+    color: #FFB6C1 ;
     height: 200px;
     padding-bottom: 20px;
     display: flex;
@@ -199,6 +204,11 @@ main{
     padding-top: 4vh;
 }
 
+.bout p{
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
 .bout {
     position: relative;
     padding-right: 20px;
@@ -206,6 +216,7 @@ main{
     text-align: center;
     padding-top: 1vh;
 }
+
 
 .bout p {
     color: #777;
@@ -216,6 +227,7 @@ main{
     font-family: sans-serif;
 }
 
+
 .head {
     padding-left: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -224,7 +236,9 @@ main{
     display: flex;
     align-items: center;
 }
-
+.head:hover{
+    color: white;
+}
 .sci li {
     float: right;
     text-decoration: none;
@@ -242,30 +256,36 @@ main{
     color: white;
 }
 
-.sci li a:hover{
-    transform: translateY(-20px);
-    box-shadow: inset-1px -1px 2px rgba(0,0,0,0.2), 2px 24px 10px rgba(0,0,0,0.1);
+.sci li a:hover {
+    transition: 1s;
+    box-shadow: inset-1px -1px 2px rgba(0, 0, 0, 0.2), 2px 24px 10px rgba(0, 0, 0, 0.1);
 }
-
-.sci li:nth-child(1) a:hover{
+.sci li i{
+     transition: .5s;
+}
+.sci li i:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.sci li:nth-child(1) a:hover {
 
     color: #3b5998;
-    transform: translateY(-20px);
+    transform: translateY(-20%);
 
 }
 
-.sci li:nth-child(2) a:hover{
+.sci li:nth-child(2) a:hover {
 
     color: rgba(188, 42, 141);
     transform: translateY(-20px);
 
 }
 
-.sci li:nth-child(3) a:hover{
+.sci li:nth-child(3) a:hover {
 
-    color:#F0E68C;
+    color: #F0E68C;
     transform: translateY(-20px);
 }
+
 @media screen and (max-width: 500px) {
     .head {
         padding-left: 15px;
