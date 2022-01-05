@@ -134,15 +134,20 @@ h2:after{
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
+	background-color: rgb(56, 151, 180);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
+	border-radius: 10px;
+}
+::placeholder{
+    color: white;
+    font-weight: 600;
 }
 
 .field:hover{
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(72,61,139);
 }
 
 textarea{
@@ -150,15 +155,17 @@ textarea{
 }
 
 .btn{
-	width: 100%;
+	width: 50%;
 	padding: 0.5rem 1rem;
-	background-color:#008B8B;
+	background-color:rgb(56, 151, 180);
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
+	border-radius: 10px;
 	outline: none;
 	cursor: pointer;
 	transition: .3s;
+	font-weight: 600;
 }
 
 .btn:hover{
