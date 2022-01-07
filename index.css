@@ -285,7 +285,7 @@ p {
 
 #tipsheading
 {
-     color: #B91646;
+     color: black;
 }
 
 
@@ -302,7 +302,8 @@ p {
 
     
     border-radius: 1rem;
-    background-color: #B91646;
+    /* background-color: #B91646; */
+    background: #F08080;
     font-family: 'Poppins', sans-serif;
 
   
@@ -631,7 +632,7 @@ main {
     }
 
     .card{
-        width: 200px;
+        width: 280px;
     }
 
     .sci li {
