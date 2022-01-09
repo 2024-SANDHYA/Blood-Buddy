@@ -129,8 +129,8 @@ header {
     color: black;
     border: 2px solid black;
     border-radius: 5px 20px 5px;
-    padding: 1px 0px;
-    font-size: 25px;
+    padding: 8px 10px;
+    font-size: 35px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -176,7 +176,7 @@ header {
         border-radius: 5px;
         border: 2px solid black;
         border-radius: 5px 20px 5px;
-        padding: 1px 0px;
+        padding: 8px 10px;
         font-size: 200%;
         background: transparent;
         position: relative;
@@ -184,8 +184,7 @@ header {
         width: 20vh;
         letter-spacing: 3px;
         height: 8vh; 
-    }
-    
+    }    
     .header-list ul li {
         display: block;
     }
