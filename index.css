@@ -1220,8 +1220,10 @@ footer {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  line-height: 50px;
+  line-height: 60px;
   font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 .col-customer {
@@ -1296,7 +1298,7 @@ footer {
 .customer-review {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(Images/review-background.jpg);
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -1304,57 +1306,4 @@ footer {
   clear: both;
   padding: 75px 0px;
   margin: 0px;
-}
-.contact-form {
-  width: 60%;
-  margin: 30px auto;
-}
-
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-input,
-select,
-textarea {
-  padding: 7px;
-}
-*:focus {
-  outline: none;
-}
-input[type="submit"] {
-  margin-left: -90px;
-  margin-top: 20px;
-}
-.review-form {
-  padding: 75px 0px;
-  margin: 0px;
-  height: 90vh;
-}
-
-.span-2-of-2-customer {
-  width: 80%;
-}
-
-.span-1-of-2-customer {
-  width: 49.2%;
-}
-input[type="submit"] {
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 30px;
-  font-weight: 300;
-  border-radius: 200px;
-  border: 1px solid #f08080;
-  background-color: #f08080;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-input[type="submit"]:hover {
-  background-color: #cd5c5c;
-  border: 1px solid #cd5c5c;
-  color: #fff;
 }
