@@ -1234,7 +1234,7 @@ footer {
 }
 @media only screen and (max-width: 480px) {
   .col-customer {
-    /*margin: 1% 0 1% 0%;*/
+    /*margin: 1% 0 1% 0%; */
     margin: 0;
   }
 }
