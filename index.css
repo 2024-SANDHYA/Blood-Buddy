@@ -412,8 +412,8 @@ main {
 .content{
     background: white;
     /* height: 100px; */
-    padding-bottom: 10px;
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -683,8 +683,6 @@ background-color: black
         
         .content {
             background: white;
-            padding-bottom: 10px;
-            padding-top: 20px;
             text-align: center;
         }
         /*Footer*/
