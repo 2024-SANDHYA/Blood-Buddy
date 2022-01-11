@@ -184,7 +184,8 @@ header {
         width: 20vh;
         letter-spacing: 3px;
         height: 8vh; 
-    }    
+    }
+    
     .header-list ul li {
         display: block;
     }
@@ -411,9 +412,9 @@ main {
 
 .content{
     background: white;
-    /* height: 100px; */
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    height: auto;
     text-align: center;
 }
 
@@ -711,21 +712,23 @@ background-color: black
         }
         
         .footer-content h3 {
-            font-size: 2.1rem;
+            font-size: 1.6rem;
             font-weight: 500;
             text-transform: capitalize;
             line-height: 3rem;
-            font-family: "Lucida Console", "Courier New", monospace;
+            font-family: 'Raleway', sans-serif;
             color: rgb(207, 205, 205);
         }
         
         .footer-content p {
             max-width: fit-content;
             margin: 0px 0px 0px 0px;
+            margin-top: -10px;
+            margin-bottom: 20px;
             line-height: 28px;
             font-size: 20px;
             color: #999999;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         
         .footer-bottom {
@@ -834,12 +837,15 @@ background-color: black
         
         .content1 {
             display: contents;
-            padding: 10px;
-            margin: 0px auto;
+        margin: 0px auto;
             text-align: center;
-            font: 25px Georgia, "Times New Roman", Times, serif;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 14px;
             width: 250px;
+        }
+        .content1 .foot{
+            margin-top: -7px;
         }
         
         @media (max-width:500px) {
