@@ -244,6 +244,9 @@ p {
   background: white;
   margin: 2%;
 }
+.img1{
+  padding:6%;
+}
 
 .about-col:hover {
   transform: scale(1.03, 1.03);
