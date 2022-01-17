@@ -472,7 +472,7 @@ main {
 
 .title-head {
   font-family: "Alegreya Sans SC", sans-serif;
-
+}
   * {
     margin: 0px;
     padding: 0px;
@@ -625,7 +625,7 @@ main {
   /*ABOUT*/
 
   .about {
-    width: 80%;
+    width: 98%;
     margin: auto;
     text-align: center;
     padding-top: 8%;
@@ -755,7 +755,7 @@ main {
     overflow: hidden;
     border-radius: 5px;
   }
-}
+
 
 html {
   scroll-behavior: smooth;
