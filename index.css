@@ -625,7 +625,7 @@ main {
   /*ABOUT*/
 
   .about {
-    width: 80%;
+    width:98%;
     margin: auto;
     text-align: center;
     padding-top: 8%;
@@ -654,6 +654,7 @@ main {
     background: white;
     margin: 2%;
   }
+  
 
   .about-col:hover {
     transform: scale(1.03, 1.03);
