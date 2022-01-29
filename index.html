@@ -9,8 +9,13 @@
     <link rel="stylesheet" href='index.css'>
     <link rel="stylesheet" href='https://fontawesome.com/v4.7.0/icon/bars'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <title>BLOOD BUDDY</title>
+<div class="preloader">
+    <img src="pre-loader.svg" alt="spinner">
+</div>
 
 <body>
     <!--Scroll to top button-->
@@ -59,7 +64,7 @@
                         <p>We connect blood donors with recipients, without any intermediary such as blood banks, for an
                             efficient and seamless process.</p>
                     </div>
-                    <div class="about-col" >
+                    <div class="about-col">
                         <div class="image">
                             <img src="./Images/innovation.png">
                         </div>
@@ -260,7 +265,8 @@
             <div class="socials">
                 <ul class="sci">
                     <li><a href="https://www.facebook.com/givebloodnhs/" target="_blank"><i
-                                class="fab fa-facebook"></i></a></li>
+                                class="fab fa-facebook"></i></a>
+                    </li>
                     <li><a href="https://www.instagram.com/indiablooddonation/?hl=en" target="_blank"><i
                                 class="fab fa-instagram"></i></a></li>
                     <li><a href="http://nbtc.naco.gov.in/" target="_blank"><i class="fas fa-globe"></i></a>
@@ -271,7 +277,22 @@
 
 
     </footer>
+    <!--Javascript for pre-loader-->
 
+    <script>
+        const preloader = document.querySelector('.preloader');
+        const fadeEffect = setInterval(() => {
+            if (!preloader.style.opacity) {
+                preloader.style.opacity = 1;
+            }
+            if (preloader.style.opacity > 0) {
+                preloader.style.opacity -= 1.5;
+            } else {
+                clearInterval(fadeEffect);
+            }
+        }, 1500);
+        window.addEventListener('load', fadeEffect);
+    </script>
     <!--js for scroll to top-->
     <script src="up.js"></script>
 
@@ -288,8 +309,10 @@
         }
     </script>
 
+
     <!--js for scroll effects-->
     <script src="scroll.js"></script>
+
 </body>
 
 </html>
