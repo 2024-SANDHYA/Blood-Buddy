@@ -60,6 +60,7 @@ header {
 
 .des{
     font-size: 24px;
+    padding-inline-start: 0px;
 }
 
 header ul li a:hover {
