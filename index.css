@@ -486,6 +486,7 @@ main {
 
 .title-head {
   font-family: "Alegreya Sans SC", sans-serif;
+}
 
   * {
     margin: 0px;
@@ -770,7 +771,7 @@ main {
     overflow: hidden;
     border-radius: 5px;
   }
-}
+
 
 html {
   scroll-behavior: smooth;
