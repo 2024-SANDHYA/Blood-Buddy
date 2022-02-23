@@ -10,7 +10,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0;
 }
 
 header {
@@ -417,12 +417,13 @@ main {
     
     .content1 {
         display: contents;
-    margin: 0px auto;
+        margin: 0px auto;
         text-align: center;
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
         width: 250px;
+
     }
     .content1 .foot{
         margin-top: -7px;

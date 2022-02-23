@@ -60,7 +60,7 @@ git remote add upstream https://github.com/2024-SANDHYA/Blood-Buddy.git
 git remote -v
 ```
 
-**6.** It is always advused to take a pull from the upstream repository to your master branch to keep it even with the main project(updated repository).
+**6.** It is always advised to take a pull from the upstream repository to your master branch to keep it even with the main project(updated repository).
 
 ```
 git pull upstream master(or main)
