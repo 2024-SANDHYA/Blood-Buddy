@@ -32,3 +32,15 @@ passwordInput.addEventListener("keyup", () => {
         
     }
 })
+
+let menu_icon = document.querySelector('.menu-icon')
+let header_list = document.querySelector('.header-list')
+
+menu_icon.addEventListener('click', ()=>{
+    if(header_list.style.display == 'none'){
+        header_list.style.display='flex'
+    }
+    else{
+        header_list.style.display='none'
+    }
+})
